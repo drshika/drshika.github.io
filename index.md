@@ -114,7 +114,7 @@ I prototyped a tool to summarize lecture transcripts to assist students in onlin
 
 ## [SERVICE, LEADERSHIP & TEACHING](#service-leadership-teaching)   
 
-<div><body><b>teaching</b> <i>(\* == admin/head course assistant (CA))</i></body></div>   
+<div><body><b>teaching</b> <i>(* == admin/head course assistant (CA))</i></body></div>   
 <div class="subhead purple-text"><b>CS225: DATA STRUCTURES</b>[SP2022]</div>
 
 Data Structures and Algorithms in C++. With Carl Evans and Brad Solomon. 
