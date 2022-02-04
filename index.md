@@ -6,28 +6,31 @@ description: Drshika Asher's Personal Site
 ## NAME
 
 Drshika Asher *(she/her)*
-
-[Resume][CV][LinkedIn][Twitter][Github]
-[drshika2 (at) illinois (dot) edu]
-
+<p>
+<div class="main-content">
+<div class="purple-text">
+[<a href="assets/css/files/asher_drshika_resume.pdf">Resume</a>][<a href="assets/css/files/asher_drshika_cv.pdf">CV</a>]<br/>[LinkedIn:<a href="https://www.linkedin.com/in/drshikaasher/">@drshikaasher</a>][Twitter:<a href="https://twitter.com/drshika_">@drshika_</a>][Github<a href="https://github.com/drshika">@drshika</a>]<br/>[drshika2(at)illinois(dot)edu]
+</div>
+</div>
+</p>
 ## SYNOPSIS
 
-**Education:** Computer Science, Statistics @ UIUC [Expected-2024]
+**Education:** Computer Science, Statistics @ UIUC <div class="purple-text">[Expected-2024]</div>
 
 **Research:**  
-Microsoft Research Redmond [Undergrad Research Intern][2022]
-Human Computer Interaction Lab [Research Intern][2022]
-Social CompUting LaBoratory (SCUBA) [Research Intern][2021]
+Microsoft Research Redmond <div class="purple-text">[Undergrad Research Intern][2022]</div>
+Human Computer Interaction Lab <div class="purple-text">[Research Intern][2022]</div>
+Social CompUting LaBoratory (SCUBA) <div class="purple-text">[Research Intern][2021]</div>
 
 **Industry:**
-Cargill [SWE Intern][2022]<br/>
-EnterpriseWorks [Front-End Intern][2021]
+Cargill <div class="purple-text">[SWE Intern][2022]<div>   
+EnterpriseWorks <div class="purple-text">[Front-End Intern][2021]</div>
 
-Skip to: [[Research](#research)]
+Skip to: <div class="purple-text">[[Research](#research)]
 [[Industry](#industry)]
 [[Projects](#projects)]
 [[Service & Leadership](#service-leadership-teaching)] <!--file a bug since this link isn't working on lh-->
-[[News](#news)]
+[[News](#news)]</div>
 
 ## DESCRIPTION 
 
@@ -41,26 +44,26 @@ In my free time, I indulge in singing hindustani classical music, biking on loca
 
 ## [NEWS](#news)
 
-[November, 2021] - I’m honored to receive the JP Morgan Chase WCS Scholarship for the 2021-22 school year! See the other recipients [here](https://cs.illinois.edu/about/awards/undergraduate-scholarships-awards/jp-morgan-chase-wcs-scholarship). 
+<div class="purple-text">[November, 2021]</div> - I’m honored to receive the JP Morgan Chase WCS Scholarship for the 2021-22 school year! See the other recipients [here](https://cs.illinois.edu/about/awards/undergraduate-scholarships-awards/jp-morgan-chase-wcs-scholarship). 
 
-[October, 2021] - I co-hosted a talk with Illinois CS and the CTO of Reddit, Chris Slowe! See the article here: [link](https://cs.illinois.edu/news/reddit-tech-talk-with-cto-chris-slowe-presents-one-more-opportunity%20-for-involvement)
+<div class="purple-text">[October, 2021]</div> - I co-hosted a talk with Illinois CS and the CTO of Reddit, Chris Slowe! See the article here: [link](https://cs.illinois.edu/news/reddit-tech-talk-with-cto-chris-slowe-presents-one-more-opportunity%20-for-involvement)
 
-[September, 2021] - As the Content-Co Chair of Reflections \| Projections, I helped host 16 speakers at Siebel center for CS! The conference had more than 1000+ attendees. 
+<div class="purple-text">[September, 2021]</div> - As the Content-Co Chair of Reflections \| Projections, I helped host 16 speakers at Siebel center for CS! The conference had more than 1000+ attendees. 
 
-[August, 2021] - I’m excited that I've been selected as one of approximately 20 students for the CS STARS program! The program is a new initiative by the CS department to jointly encourage research and mentorship/outreach for women in computing. See the other STARS [here](https://cs.illinois.edu/broadening-participation-computing/programs/csambassadors)
+<div class="purple-text">[August, 2021]</div> - I’m excited that I've been selected as one of approximately 20 students for the CS STARS program! The program is a new initiative by the CS department to jointly encourage research and mentorship/outreach for women in computing. See the other STARS [here](https://cs.illinois.edu/broadening-participation-computing/programs/csambassadors)
 
-[May, 2021] - I’m excited to be contributing to UIUC’s @ ACM chapter as the new Corporate Chair!
+<div class="purple-text">[May, 2021]</div> - I’m excited to be contributing to UIUC’s @ ACM chapter as the new Corporate Chair!
 
-[May, 2019] - My birthday gift from AP CollegeBoard was this video from the AP+WE Conference re: my advocacy work for women in CS. Link: [https://www.facebook.com/WEmovement/videos/322348095104802](https://www.facebook.com/WEmovement/videos/322348095104802), start @ 3:08:09
+<div class="purple-text">[May, 2019]</div> - My birthday gift from AP CollegeBoard was this video from the AP+WE Conference re: my advocacy work for women in CS. Link: [https://www.facebook.com/WEmovement/videos/322348095104802](https://www.facebook.com/WEmovement/videos/322348095104802), start @ 3:08:09
 
 
 ## [RESEARCH](#research)
 
-   **OVER-TRUST IN AUTOMATED SYSTEMS,** UIUC HCI LAB [2022]
+   **OVER-TRUST IN AUTOMATED SYSTEMS,** <div class="purple-text">UIUC HCI LAB [2022]<div class="purple-text">
 
 Mentors: Prof. Alex Kirlik and Sebastian Rodriguez. I’m currently working on a project that’s examining how good automation systems are. Working with C# and Unity to build a game that determines whether the physicality of the agent affects user trust.
 
-   **CLASSIFYING AUDIO-SOCIAL PLATFORMS,** SCuBa LAB [2021]
+   **CLASSIFYING AUDIO-SOCIAL PLATFORMS,** <div class="purple-text">SCuBa LAB [2021]<div class="purple-text">
 
 Mentors: Prof. Eshwar Chandrashekaran and Tanvi Bajpai. I investigated the structure and norms of the voice based platform Clubhouse and documented the different forms of abuse on voice based platforms like Twitter Spaces, Discord Stages as well as Spotify Greenroom. We analyzed these trends using Natural Language Processing techniques like LDA and SAGE. See my talk from the virtual REU poster session [here](https://cs.illinois.edu/research/undergraduate-research/summer-research-experience-undergraduates/participants/drshika-asher)
 
@@ -72,11 +75,11 @@ Preprint, July 2021. (in peer review ACM CSCW) [[arXiv](https://arxiv.org/abs/21
 
 ## [INDUSTRY](#industry)
 
-   **CARGILL,** Software Engineering Intern [2022]
+   **CARGILL,** <div class="purple-text">Software Engineering Intern [2022]<div class="purple-text">
 
 I’m currently a software engineering intern with the Cargill Innovation lab where I am collaborating with international stakeholders to build a unified react component library.
 
-   **ENTERPRISEWORKS,** Front-End Developer [2021]
+   **ENTERPRISEWORKS,** <div class="purple-text">Front-End Developer [2021]<div class="purple-text">
 
 Over the summer of 2021, I had my first internship with EnterpriseWorks, a startup incubator. I build over 20 pages of websites for both internal and external clients and got fluent with HTML, CSS, JS and PHP! This internship was an amazing learning experience for me and I really enjoyed working with the team.
 
@@ -130,11 +133,11 @@ Working on recruiting, mentorship and cohort-building activities like Hour of Co
 
 **leadership**
 
-   **[ACM @ UIUC](https://acm.illinois.edu/),** Corporate Chair [2022], Social Media Chair [2021]
+   **[ACM @ UIUC](https://acm.illinois.edu/),** <div class="purple-text">Corporate Chair [2022], Social Media Chair [2021]</div>
 
 As the Corporate Chair for Association of Computing Machinery at Illinois, I have mentored a lead a team of 6 to raise $10,000+ in funding for our club during COVID-19. Additionally, I served as a mentor this summer to incoming freshman.
 
-   **[Reflections \| Projections](https://www.reflectionsprojections.org/),** Content Chair [2021]
+   **[Reflections \| Projections](https://www.reflectionsprojections.org/),** <div class="purple-text">Content Chair [2021]</div>
 
 Was a Content Chair for Reflections \| Projections, a hybrid conference created to introduce students to careers in computing. Our team of 6 brought in a total of 11 speakers across 9 speaking events for students to hear about how they can leverage computing for good across a variety of fields ranging from ethical artificial intelligence to project management. Keynote: D. Sivakumar ex head of AI @ Google
 

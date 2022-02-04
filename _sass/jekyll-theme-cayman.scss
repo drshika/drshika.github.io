@@ -387,6 +387,11 @@ a {
     background-color: $hr-border-color;
     border: 0;
   }
+
+  .purple-text {
+    color: $section-headings-color!important;
+    margin-left: 1%;
+  }
 }
 
 .site-footer {
