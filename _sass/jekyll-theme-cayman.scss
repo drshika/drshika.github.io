@@ -56,8 +56,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Nitti", "Source Code Pro", "Inconsolata", monospace;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 14px;
+  line-height: 1.4;
   color: $body-text-color;
 }
 
@@ -386,11 +386,6 @@ a {
     margin: 1rem 0;
     background-color: $hr-border-color;
     border: 0;
-  }
-
-  .purple-text {
-    color: $section-headings-color!important;
-    margin-left: 1%;
   }
 }
 
