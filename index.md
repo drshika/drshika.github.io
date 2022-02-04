@@ -40,7 +40,9 @@ Skip to:<div class="purple-text">
 [<a href="#research">Research</a>]
 [<a href="#industry">Industry</a>]
 [<a href="#projects">Projects</a>]
-[<a href="#service-leadership-teaching">Service &amp; Leadership</a>][<a href="#news">News</a>]
+[<a href="#service-leadership-teaching">Service &#38; Leadership</a>]
+[<a href="#news">News</a>]
+[<a href="/writing.html">Writing</a>]
 </div> </div> </p>
 
 ## DESCRIPTION 
@@ -60,6 +62,8 @@ In my free time, I indulge in singing hindustani classical music, biking on loca
 <div class="purple-text">[October, 2021]</div> I co-hosted a talk with Illinois CS and the CTO of Reddit, Chris Slowe! See the article here: [link](https://cs.illinois.edu/news/reddit-tech-talk-with-cto-chris-slowe-presents-one-more-opportunity%20-for-involvement)
 
 <div class="purple-text">[September, 2021]</div> As the Content-Co Chair of Reflections \| Projections, I helped host 16 speakers at Siebel center for CS! The conference had more than 1000+ attendees. 
+
+<div class="purple-text">[August, 2021]</div> I've been selected as a Facebook Above and Beyond Computer Science scholar! I'm excited to learn from the mentors at Facebook, meet others in my cohort and grow my interviewing skills. 
 
 <div class="purple-text">[August, 2021]</div> I’m excited that I've been selected as one of approximately 20 students for the CS STARS program! The program is a new initiative by the CS department to jointly encourage research and mentorship/outreach for women in computing. See the other STARS [here](https://cs.illinois.edu/broadening-participation-computing/programs/csambassadors)
 
