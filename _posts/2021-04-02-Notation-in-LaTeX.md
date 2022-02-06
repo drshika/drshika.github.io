@@ -90,17 +90,17 @@ The above is enough to start writing notation for dance compositions, however, f
    \stackrel{\text{'}}{re} \text{or } re'
    ```
 
-$$\stackrel{\text{'}}{re} \text{or } re'$$
+   $$\stackrel{\text{'}}{re} \text{or } re'$$
 
 3. Octaves: Use `\stackrel{}{}` to put a dot either above or below the note. Or you can use exponents and subscripts with a carat `^` or underscore `_`. This part is also dependent on what you prefer.
-   ``
-   \text{[Stackrel] } \text{Low Sa: }\stackrel{\text{sa}}{.} ~ \text{High Sa:} \stackrel{.}{\text{sa}}\\ \text{[Sub and Superscripts] } \text{Low Sa: }  ~ \text{sa}_. ~ \text{High sa:} ~ \text{sa}^.
-   ``
-
    ```latex
+   \text{[Stackrel] } \text{Low Sa: }\stackrel{\text{sa}}{.} ~ \text{High Sa:} \stackrel{.}{\text{sa}}\\ \text{[Sub and Superscripts] } \text{Low Sa: }  ~ \text{sa}_. ~ \text{High sa:} ~ \text{sa}^.
+   ```
+
+   $$
    \text{[Stackrel] } \text{Low Sa: }\stackrel{\text{sa}}{.} ~ \text{High Sa:} \stackrel{.}{\text{sa}}
    \\ \text{[Sub and Superscripts] } \text{Low Sa: }  ~ \text{sa}_. ~ \text{High sa:} ~ \text{sa}^.
-   ```
+   $$
 
 ### Vishnu Digambar Padhati
 
