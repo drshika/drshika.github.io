@@ -12,3 +12,5 @@ title: Writing
     </li>
   {% endfor %}
 </ul>
+
+<a href="/"><- back to Home</a>
