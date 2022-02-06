@@ -1,6 +1,6 @@
 ---
-layout: default
-title: -> ~ man drshika
+layout: home
+title: 
 description: Drshika Asher's Personal Site
 ---
 <style>
