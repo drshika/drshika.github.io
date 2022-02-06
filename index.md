@@ -102,7 +102,7 @@ I developed a virtual Tanpura Simulator with 7 keys using Cinder’s Audio API L
 
    <div class="subhead purple-text"><b>HANDWRITING CLASSIFIER</b></div>
 
-I developed a virtual Tanpura Simulator with 7 keys uI created a model using the Naive-Bayes Classifier algorithm to predict the number that a user draws on a sketchpad. I trained the model with 5000 handwritings, and tests the model with 1000 handwritings with an accuracy of 98%. Since this was a school project, I cannot link the code. Used C++, Cinder, and CMake.
+I created a model using the Naive-Bayes Classifier algorithm to predict the number that a user draws on a sketchpad. I trained the model with 5000 handwritings, and tests the model with 1000 handwritings with an accuracy of 98%. Since this was a school project, I cannot link the code. Used C++, Cinder, and CMake.
 
    <div class="subhead purple-text"><b>LCTRS</b> --github_link=<a href="https://github.com/CS196Illinois/Group6">https://github.com/CS196Illinois/Group6</a></div>
 

@@ -23,7 +23,7 @@ So people have been asking me to write this because I have an entire workflow sy
         - I use Spicetify to customize my Spotify installation. I’m currently running DribblishDynamic and FullAppDisplay, shuffle+ and the reddit custom app.
     - Texteditors: Vim, [VSCode](https://code.visualstudio.com/)
         - My Vim config is pretty default because I mostly use it for short one off things
-        - VSCode: The only extension I have that’s not a language support one is bracket pair colorizer. I highly reccomend it. I’m currently running quiet light but I think I want to switch around and come back to what themes/fonts/color schemes I like. I do like using light mode at night so maybe take my opinion with a grain of salt.
+        - VSCode: The only extension I have that’s not a language support one is bracket pair colorizer. I highly recommend it. I’m currently running quiet light but I think I want to switch around and come back to what themes/fonts/color schemes I like. I do like using light mode at night so maybe take my opinion with a grain of salt.
     - Terminal: [iterm 2](https://iterm2.com/), solarized light theme
         
         I alternate between Fish and Zsh. 
