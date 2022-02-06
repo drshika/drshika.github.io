@@ -1,7 +1,9 @@
 title: Drshika Asher
-description: 
-show_downloads: true
+description: Drshika Asher's Personal Website
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-cayman
+# url: 'http://drshika.github.io'
 plugins:
   - jekyll-katex
+excerpt_separator: "<!--more-->"

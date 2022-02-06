@@ -2,11 +2,12 @@
 layout: post
 title: Writing Indian Music Notation in LaTeX
 KaTeX: True
+excerpt_separator: <!--more-->
 ---
 
+This guide will teach you how to use common macros in LaTeX to beautifully typeset hindustani music notation in Vishnu Digambar and Bhaktande Paddhati. 
 
 ### Prerequisites
-
 This guide assumes that you already know how to write LaTeX pretty fluently and that you have somewhere that you can either write KaTeX or LaTeX and compile it. I'm going to include alternatives for syntax that is not supported with both, so you can follow along.
 
 ### Teentaal Tatkar in LaTeX

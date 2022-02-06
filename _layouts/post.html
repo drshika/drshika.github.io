@@ -2,6 +2,6 @@
 layout: default
 ---
 <!-- <h1>{{ page.title }}</h1> -->
-<p style="margin-left : 0%;!important">{{ page.date | date_to_string }}</p> <!--fix the margin left issue on p, maybe make it specific to index only-->
+<p>{{ page.date | date_to_string: "ordinal", "US" }}</p> <!--fix the margin left issue on p, maybe make it specific to index only-->
 
-<p style="margin-left : 0%;!important">{{ content }}</p>
+<p>{{ content }}</p>
