@@ -87,57 +87,57 @@ October 4th-November 19th, 2021 - Applications portal is open
 December 16, 2021 - Got an email from program coordinator about interview scheduling:
 
 > Dear Drshika,
-
-Congratulations! We are impressed by your application and are pleased to share that we would like to move forward and schedule an interview. The interview will consist of a few people from Microsoft Research, and you can expect it to last 40-45 minutes. I’m emailing you today to let you know that someone from MSR will be reaching out, however, they may also have taken off for vacation! So, if you do not hear from us in the next few days, you certainly should before January 7th.
-
-If you have any questions or any deadlines we should know of, please let us know.
+>
+>Congratulations! We are impressed by your application and are pleased to share that we would like to move forward and schedule an interview. The interview will consist of a few people from Microsoft Research, and you can expect it to last 40-45 minutes. I’m emailing you today to let you know that someone from MSR will be reaching out, however, they may also have taken off for vacation! So, if you do not hear from us in the next few days, you certainly should before January 7th.
+>
+>If you have any questions or any deadlines we should know of, please let us know.
 > 
 
 December 27, 2021 - Got an email from my interviewers
 
 > Hi Drshika,
-
-Congratulations! We have reviewed your submission to the Microsoft Research (MSR) Undergraduate Research Internship and would like to schedule you for an interview.
-
-I'm <interviewer name>, and I will be conducting the interview. I’m Sr. Principal Researcher in the Productivity and Intelligence group in MSR. My research is on improving productivity of software engineers and data science using AI-based software systems. We will also be joined by at least one more researcher and I will let you know their names closer to the interview.
-
-We hold the interviews online via Teams, and you can expect the interview to last 40-45 minutes. To help me schedule the interview, please let me know your availability on January 5-7.
-
-All internships will be virtual this summer, you must be physically present in the United States or Canada during the internship.
-
-Thanks, and I look forward to meeting you soon!
+>
+>Congratulations! We have reviewed your submission to the Microsoft Research (MSR) Undergraduate Research Internship and would like to schedule you for an interview.
+>
+>I'm <interviewer name>, and I will be conducting the interview. I’m Sr. Principal Researcher in the Productivity and Intelligence group in MSR. My research is on improving productivity of software engineers and data science using AI-based software systems. We will also be joined by at least one more researcher and I will let you know their names closer to the interview.
+>
+>We hold the interviews online via Teams, and you can expect the interview to last 40-45 minutes. To help me schedule the interview, please let me know your availability on January 5-7.
+>
+>All internships will be virtual this summer, you must be physically present in the United States or Canada during the internship.
+>
+>Thanks, and I look forward to meeting you soon!
 > 
 
 January 17, 2022 - Got an email from another program coordinator for a quick followup (this doesn’t happen for all candidates but for the sake of transparency):
 
 > Hi Drshika,
+>
+>My name is <researcher two> and I am one of the organizers of the Microsoft Research Internship program.  I was wondering if you had time this week for a quick meeting?  Some of the work you are interested in pursuing overlaps with my current research efforts. I would love to meet you and hear more about your work and interests.
 
-My name is <researcher two> and I am one of the organizers of the Microsoft Research Internship program.  I was wondering if you had time this week for a quick meeting?  Some of the work you are interested in pursuing overlaps with my current research efforts. I would love to meet you and hear more about your work and interests.
-> 
 
 January 19, 2022- Got another email from a researcher for a quick follow up chat:
 
 > Hi Drshika,
+>
+>I am part of the undergrad intern program and I was wondering if you would have some free time to chat today or tomorrow?
 
-I am part of the undergrad intern program and I was wondering if you would have some free time to chat today or tomorrow?
-> 
 
 Jan 28, 2022 - Some people I was talking to got their offers!
 
 Jan 31, 2022 - I got my offer! 
 
 > Dear Drshika,
-
-Congratulations! We  think you’d be a great addition to our program. We are recommending you  for one of the MSR Undergraduate Internship positions and we are really excited to work with you this summer. You will be mentored by <mentor name> in the Microsoft Research at Redmond lab (virtually).
-
-For us to extend an official offer:
-
-1. We need you to first apply to the program via this website:
-[](https://urldefense.com/v3/__https://nam06.safelinks.protection.outlook.com/?url=https*3A*2F*2Furldefense.com*2Fv3*2F__https*3A*2F*2Fnam06.safelinks.protection.outlook.com*2F*3Furl*3Dhttps*3A*2F*2Furldefense.com*2Fv3*2F__https*3A*2F*2Fcareers.microsoft.com*2Fus*2Fen*2Fjob*2F1233721*2FResearch-Intern-Undergraduate__*3B!!OToaGQ!7165qISmB-KqBdJrwWSN0gKTetF9hanEs3Q2TMjq3TZv1XJwY0dmaDvLGUgWZxnX*24*26data*3D04*7C01*7CPhilip.Rosenfield*40microsoft.com*7Cf31f62b3a84f44fdc88208d9d7d7e052*7C72f988bf86f141af91ab2d7cd011db47*7C1*7C0*7C637778144623278283*7CUnknown*7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0*3D*7C2000*26sdata*3DeDvAX22iuiIrhpzszFKZFLcfgPWmzL5nhibIzfi*2BgJc*3D*26reserved*3D0__*3BJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSU!!OToaGQ!6rgXOuOk_8ZDoOBfDOOO0f-B3LO5F-8HSBq-PtXpoiF4oHvm_AihZ7B5Kj2gjf2_cEQ*24&data=04*7C01*7CPhilip.Rosenfield*40microsoft.com*7Ce90f5a6680944c03063f08d9e0439560*7C72f988bf86f141af91ab2d7cd011db47*7C1*7C0*7C637787403148780015*7CUnknown*7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0*3D*7C3000&sdata=ickCXt0Fl4sYA0f*2F8VgVpM7nvbYLI2uqtCbB4Z9Cdu0*3D&reserved=0__;JSUlJSUlJSUlJSUqKioqKioqKioqKioqKiolJSoqKioqKioqKioqKiUlKiolJSUlJSUlJSUlJSUlJSUlJSU!!DZ3fjg!ti4M5rcDjTB_hNNu9ebzufkBf_zLbkNcFKRjEGAXXAqEOBMtdftMMe6VPZaT1FVryf0$)[redacted link] (You should only need to upload a resume or CV and answer the
+>
+>Congratulations! We  think you’d be a great addition to our program. We are recommending you  for one of the MSR Undergraduate Internship positions and we are really excited to work with you this summer. You will be mentored by <mentor name> in the Microsoft Research at Redmond lab (virtually).
+>
+>For us to extend an official offer:
+>
+>1. We need you to first apply to the program via this website:
+[redacted link] (You should only need to upload a resume or CV and answer the
 pre-qualification questions – including that we have asked you to apply. You don’t need to resubmit your essays. If it is more complicated than that please let me know.) **Please let me know when you’ve completed this step**.
-
-2. **Please let me know your preferred start date** (any Monday in May or June 2022 but the earlier the better for your project). It can be adjusted before you start.
-> 
+>
+>2. **Please let me know your preferred start date** (any Monday in May or June 2022 but the earlier the better for your project). It can be adjusted before you start.
+>
 
 ## Decision Process
 
