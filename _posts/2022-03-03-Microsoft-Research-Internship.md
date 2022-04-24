@@ -1,10 +1,8 @@
 ---
 layout: post
-title: Life as a Engineering Fellow @ Urspace Labs
+title: Microsoft Research Internships
 excerpt_separator: <!--more-->
 ---
-
-# Microsoft Research Internships
 
 This is **unofficial**, largely anecdote-based advice on getting hired for the Microsoft Undergraduate Research Internship at Microsoft. This doc covers who the program is looking for, what the application requires, prompts, interview process, decision process, offers and what happens next. I decided to create this since there isn’t much information available online about this program. 
 <!--more-->
@@ -28,13 +26,13 @@ From program coordinators: juniors/seniors who have some interest in research an
     - If you have never asked for a LOR before here’s how it works. Ask your recommender in person, follow up with asking via email and then send them to invitation on the portal.
         
         > Hello Professor xyz, 
-        
-        Hope you are doing well. My name is <name> and I am/was in your <lab> as <role> <research intern>. I am interested in applying for the Microsoft Undergraduate Research Internship <link here> and I was wondering if you would be able to write me a recommendation letter. The application is due *Nov 19th, 2021*. 
-        
-        I feel like you would be an excellent person to speak to my contributions with <xyz>. If this is something you would have the capacity to do, please let me know what information you need for me (or if you would like to set up a quick meeting to gather the information you need) and I can provide that to you.
-        
-        Best,
         > 
+        >Hope you are doing well. My name is <name> and I am/was in your <lab> as <role> <research intern>. I am interested in applying for the Microsoft Undergraduate Research Internship <link here> and I was wondering if you would be able to write me a recommendation letter. The application is due *Nov 19th, 2021*. 
+        >
+        >I feel like you would be an excellent person to speak to my contributions with <xyz>. If this is something you would have the capacity to do, please let me know what information you need for me (or if you would like to set up a quick meeting to gather the information you need) and I can provide that to you.
+        >
+        >Best,
+    
     - Be prepared to provide your recommender with a list of your accomplishments so that they can write you the strongest letter possible.
 - Two Essays
     1. Essay 1: Research interest statement (500 words or fewer)
@@ -49,35 +47,35 @@ From program coordinators: juniors/seniors who have some interest in research an
         diversity** and inclusion in your field and/or any unique challenges you
         may have faced and how you navigated those obstacles
         2. Tips: this is a weed out questions for interviews so make sure you write a serious answer for this! I just talked about all the advocacy work that I have done in the past and what efforts I remain involved with at the moment. 
-- MY ESSAYS
+- **MY ESSAYS**
     
     *Answer the prompt: What draws you to the desired research area(s) you selected and what **impact would you like to have in that space**?*
     
-    Research Areas chosen: Human-Computer interaction, Social Sciences, Human Language Technologies.
-    
-    When I was younger, It was common to interact with strangers on the internet with little to no moderation in place. Once, in middle school, I was harassed on an online site by a stranger, which scared me to interact freely with others online. Years later, as a freshman in college, I began working in UIUC's Social Computing Laboratory (SCUBA) and was introduced to the extensive breadth of research done in online moderation. Through my work with the SCUBA lab, I have become incredibly passionate about examining the factors that promote antisocial behavior on social networking sites and what we can do to reduce that kind of behavior.
-    
-    I began working with SCUBA through UIUC's Summer Research Experience for Undergraduates (REU) program. I worked closely with a graduate student in the lab on moderation on audio-based social platforms (ABSPs) such as Clubhouse, Discord, and Twitter Spaces. I scraped Twitter for tweets about moderation and user perspectives which helped my graduate mentor develop a novel analytical framework called MIC to understand voice-based social apps' affordances. This work eventually culminated into the paper [1], which is currently in a revision cycle with ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW), a top-tier Human-Computer Interaction Conference.
-    
-    In addition to contributing to the MIC project, I investigated other apps like Clubhouse, such as Twitter Spaces, Discord Stages, and Spotify Greenroom. I learned an NLP technique called Topic Modeling to analyze the different kinds of conversations surrounding these apps on Twitter to analyze these tweets. The two types of models I used were Sparse Additive Generative Models (SAGE) and LDA (Latent Dirichlet Allocation).
-    
-    Currently, I'm working with another graduate student in SCUBA on community resiliency and what factors promote disruptive behavior in college subreddits. In addition, I'm working on an online dashboard to visualize removed comments and identify trends in commenting behavior.
-    
-    As a result of my experiences, I'm interested in studying what creates safer, inclusive online spaces and building computational tools to measure and build this. To do so, I wish to focus my research on Human-Computer Interaction, Social Sciences, and Human Language technologies. I'd also like to learn more about improving accessibility or examining the impacts of technology on disabled individuals as a part of building inclusive online spaces.
-    
-    While moderation research genuinely excites me, I am open to working in other areas to build my skill set. The Microsoft Undergraduate Research Program can empower me to continue learning more about HCI through exposure to Microsoft researchers, visiting faculty, data and applied scientists, engineers, designers, and doctoral students. Industry research is probably very different from how it is structured in academia, and I would love to learn how the research mentorship process works at Microsoft.
-    
-    [1] Tanvi Bajpai, Drshika Asher, Anwesa Goswami, and Eshwar Chandrasekharan. 2021. Harmonizing the Cacophony: An Affordance-aware Framework of Audio-Based Social Platform Moderation. arXiv:2107.09008 [cs] (July 2021). Retrieved November 17, 2021 from https://arxiv.org/abs/2107.09008
+    >Research Areas chosen: Human-Computer interaction, Social Sciences, Human Language Technologies.
+    >
+    >When I was younger, It was common to interact with strangers on the internet with little to no moderation in place. Once, in middle school, I was harassed on an online site by a stranger, which scared me to interact freely with others online. Years later, as a freshman in college, I began working in UIUC's Social Computing Laboratory (SCUBA) and was introduced to the extensive breadth of research done in online moderation. Through my work with the SCUBA lab, I have become incredibly passionate about examining the factors that promote antisocial behavior on social networking sites and what we can do to reduce that kind of behavior.
+    >
+    >I began working with SCUBA through UIUC's Summer Research Experience for Undergraduates (REU) program. I worked closely with a graduate student in the lab on moderation on audio-based social platforms (ABSPs) such as Clubhouse, Discord, and Twitter Spaces. I scraped Twitter for tweets about moderation and user perspectives which helped my graduate mentor develop a novel analytical framework called MIC to understand voice-based social apps' affordances. This work eventually culminated into the paper [1], which is currently in a revision cycle with ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW), a top-tier Human-Computer Interaction Conference.
+    >
+    >In addition to contributing to the MIC project, I investigated other apps like Clubhouse, such as Twitter Spaces, Discord Stages, and Spotify Greenroom. I learned an NLP technique called Topic Modeling to analyze the different kinds of conversations surrounding these apps on Twitter to analyze these tweets. The two types of models I used were Sparse Additive Generative Models (SAGE) and LDA (Latent Dirichlet Allocation).
+    >
+    >Currently, I'm working with another graduate student in SCUBA on community resiliency and what factors promote disruptive behavior in college subreddits. In addition, I'm working on an online dashboard to visualize removed comments and identify trends in commenting behavior.
+    >
+    >As a result of my experiences, I'm interested in studying what creates safer, inclusive online spaces and building computational tools to measure and build this. To do so, I wish to focus my research on Human-Computer Interaction, Social Sciences, and Human Language technologies. I'd also like to learn more about improving accessibility or examining the impacts of technology on disabled individuals as a part of building inclusive online spaces.
+    >
+    >While moderation research genuinely excites me, I am open to working in other areas to build my skill set. The Microsoft Undergraduate Research Program can empower me to continue learning more about HCI through exposure to Microsoft researchers, visiting faculty, data and applied scientists, engineers, designers, and doctoral students. Industry research is probably very different from how it is structured in academia, and I would love to learn how the research mentorship process works at Microsoft.
+    >
+    >[1] Tanvi Bajpai, Drshika Asher, Anwesa Goswami, and Eshwar Chandrasekharan. 2021. Harmonizing the Cacophony: An Affordance-aware Framework of Audio-Based Social Platform Moderation. arXiv:2107.09008 [cs] (July 2021). Retrieved November 17, 2021 from https://arxiv.org/abs/2107.09008
     
     *Essay 2: Leadership in Diversity statement (Current 239, 250 words or fewer)*
     
     *Please describe **ways you have contributed to increasing diversity and inclusion in your field** and/or any unique challenges you may have faced and how you navigated those obstacles.*
     
-    When I was first exposed to computer science, it was in a classroom full of loud and confident male students who raced far ahead of the lectures to do fun side projects while I silently struggled with getting my command prompt to print "Hello World." Since then, I have worked hard to develop my skills and confidence in computer science and helped my female and URM peers. During my high school years, I was the president of our school's computer science club and organized many workshops and an event called "Girls Night of Code" during my sophomore-senior year to encourage middle school girls to pursue computer science.
-    
-    In college, I continue my commitment towards bridging the gender gap in computing by working closely with CS RSOs like Association for Computing Machinery (ACM) and WCS (Women in Computer Science). In addition, I'm actively involved with mentorship through the ACM Mentorship program and other national organizations like NCWIT (National Center for Women in Technology) and RTC (Rewriting the Code).
-    
-    This semester, the department recognized my research and outreach efforts, and I was selected to be a CS STARS ambassador. I'm fully funded to research with the SCUBA Lab. This program helps us build research skills while also interfacing with faculty and administration on increasing the number of women and URMs in research. We also organized events like Trick-Or-Research, to connect faculty and research opportunities to undergraduates looking to learn more about research.
+    >When I was first exposed to computer science, it was in a classroom full of loud and confident male students who raced far ahead of the lectures to do fun side projects while I silently struggled with getting my command prompt to print "Hello World." Since then, I have worked hard to develop my skills and confidence in computer science and helped my female and URM peers. During my high school years, I was the president of our school's computer science club and organized many workshops and an event called "Girls Night of Code" during my sophomore-senior year to encourage middle school girls to pursue computer science.
+    >
+    >In college, I continue my commitment towards bridging the gender gap in computing by working closely with CS RSOs like Association for Computing Machinery (ACM) and WCS (Women in Computer Science). In addition, I'm actively involved with mentorship through the ACM Mentorship program and other national organizations like NCWIT (National Center for Women in Technology) and RTC (Rewriting the Code).
+    >
+    >This semester, the department recognized my research and outreach efforts, and I was selected to be a CS STARS ambassador. I'm fully funded to research with the SCUBA Lab. This program helps us build research skills while also interfacing with faculty and administration on increasing the number of women and URMs in research. We also organized events like Trick-Or-Research, to connect faculty and research opportunities to undergraduates looking to learn more about research.
     
 
 ## Interview Process/Timeline
