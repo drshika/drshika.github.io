@@ -1,8 +1,13 @@
+---
+layout: post
+title: Life as a Engineering Fellow @ Urspace Labs
+excerpt_separator: <!--more-->
+---
 
 # Microsoft Research Internships
 
 This is **unofficial**, largely anecdote-based advice on getting hired for the Microsoft Undergraduate Research Internship at Microsoft. This doc covers who the program is looking for, what the application requires, prompts, interview process, decision process, offers and what happens next. I decided to create this since there isn’t much information available online about this program. 
-
+<!--more-->
 source: I was offered a position for this program in 2022.
 
 ## Disclaimer
