@@ -121,7 +121,7 @@ I prototyped a tool to summarize lecture transcripts to assist students in onlin
 
 Data Structures and Algorithms in C++. With Carl Evans and Brad Solomon. 
 
-[0] [Exam 1 Review Guide](https://drshika.notion.site/Exam-1-Review-8222916da8114aceafafcd25db66dccc)
+[0] [Exam 1 Review Guide](https://drshika.notion.site/Exam-1-Review-8222916da8114aceafafcd25db66dccc)   
  &nbsp;↓    
 [1] [Exam 2 Review Guide](https://drshika.notion.site/Exam-2-Review-b9f8acdc9c64470080ce7f42105134d4)   
  &nbsp;↓   
@@ -133,7 +133,7 @@ nullptr
 
 CS 196 is a student-run freshman honors section for ‘Intro to Computer Science’ at UIUC. Was Project Manager for two teams using Scrum to help build and ship two Kotlin Apps.
 
-[0] [Kotlin Slides](https://docs.google.com/presentation/d/1efdbPEUBnE5P_QJIuWO4aWLMJm2U5TwSn668uMNahi8/edit?usp=sharing)
+[0] [Kotlin Slides](https://docs.google.com/presentation/d/1efdbPEUBnE5P_QJIuWO4aWLMJm2U5TwSn668uMNahi8/edit?usp=sharing)   
  &nbsp;   ↓   
 nullptr 
 
