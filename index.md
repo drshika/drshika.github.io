@@ -14,7 +14,7 @@ description: Drshika Asher's Personal Site
 </style>
 ## NAME
 
-Drshika Asher *(she/her)*
+Drshika Asher *(she/they)*
 
 <p>
 <div style="margin-left: 10%">
@@ -30,7 +30,7 @@ Drshika Asher *(she/her)*
 
 ## SYNOPSIS
 <!-- todo: eventually segment this off into a conditional/while loop so that we can do some nicer styling -->
-**Education:** Computer Science, Statistics @ UIUC [Expected-2024]
+**Education:** Computer Science, Philosophy @ UIUC [Expected-2024]
 
 **Research:**  
 Microsoft Research Redmond [Undergrad Research Intern][2022]   
@@ -43,15 +43,21 @@ EnterpriseWorks [Front-End Intern][2021]
 
 ## DESCRIPTION 
 
-My name is Drshika. I’m a 14th grade student at the University of Illinois Urbana-Champaign studying Computer Science with a minor in Statistics. 
+My name is Drshika. I’m a 14th grade student at the University of Illinois Urbana-Champaign studying Computer Science with a minor in Philosophy. 
 
-I’m interested in learning more about Virtual/Augmented Reality, Accessibility, and Social Computing and have been researching with the HCI and SCuBa laboratory through the CS STARS Research Fellowship.
+I’m interested in learning more about Virtual/Augmented Reality, Accessibility, and Social Computing and have been researching with the HCI and SCuBa laboratory through the CS STARS Research Fellowship. 
+
+My studies and research are supported by scholarships from JP Morgan Chase, Cargill, Clare Boothe Luce Foundation and others.
 
 I love to help others and am a course assistant for CS225 (Data Structures) currently and CS196 (honors computer science) in the past.
 
 In my free time, I indulge in singing hindustani classical music, biking on local trails, and attempting to cook various deserts.
 
 ## [NEWS](#news)
+
+<div class="subhead purple-text">[May, 2022]</div> I'll be travelling to Minneapolis this summer! I was selected for the 2022 Cargill Global Scholars Program. Learn more [here](https://www.cargillglobalscholars.com/)
+
+<div class="subhead purple-text">[April, 2022]</div> I’m honored to be selected as one of six research scholars for the Clare Boothe Luce Research Fellowship program! See the other recipients [here](https://isur.engineering.illinois.edu/clare-boothe-luce-research-scholars/)
 
 <div class="subhead purple-text">[November, 2021]</div> I’m honored to receive the JP Morgan Chase WCS Scholarship for the 2021-22 school year! See the other recipients [here](https://cs.illinois.edu/about/awards/undergraduate-scholarships-awards/jp-morgan-chase-wcs-scholarship). 
 
@@ -81,14 +87,14 @@ In my free time, I indulge in singing hindustani classical music, biking on loca
 **PUBLICATIONS**
 
 Harmonizing the Cacophony: An Affordance-aware Framework of Audio-Based Social Platform Moderation
-with **Drshika Asher**, Anwesa Goswami, and Eshwar Chandrasekharan
-Preprint, July 2021. (in peer review ACM CSCW) [[arXiv](https://arxiv.org/abs/2107.09008)]
+Tanvi Bajpai, **Drshika Asher**, Anwesa Goswami, and Eshwar Chandrasekharan
+Preprint, July 2021. (accepted, ACM CSCW 2022) [[arXiv](https://arxiv.org/abs/2107.09008)]
 
 ## INDUSTRY
 
    <div class="subhead purple-text"><b>CARGILL</b>, Software Engineering Intern [2022]</div>
 
-I’m currently a software engineering intern with the Cargill Innovation lab where I am collaborating with international stakeholders to build a unified react component library.
+I was a software engineering intern with the Cargill Innovation lab where I collaborated with international stakeholders to build a unified react component library.
 
    <div class="subhead purple-text"><b>ENTERPRISEWORKS</b>, Front-End Developer [2021]</div>
 
@@ -115,11 +121,11 @@ I prototyped a tool to summarize lecture transcripts to assist students in onlin
 
 Data Structures and Algorithms in C++. With Carl Evans and Brad Solomon. 
 
-[0] Exam 1 Review Guide <!--TODO: add links-->  
+[0] [Exam 1 Review Guide](https://drshika.notion.site/Exam-1-Review-8222916da8114aceafafcd25db66dccc)   
  &nbsp;↓    
-[1] Exam 2 Review Guide   
+[1] [Exam 2 Review Guide](https://drshika.notion.site/Exam-2-Review-b9f8acdc9c64470080ce7f42105134d4)   
  &nbsp;↓   
-[2] Exam 3 Review Guide   
+[2] [Exam 3 Review Guide](https://www.notion.so/drshika/Exam-3-Review-cd5493319d2545d2b099dc10a690ec31)   
  &nbsp;↓   
 nullptr 
 
@@ -127,7 +133,7 @@ nullptr
 
 CS 196 is a student-run freshman honors section for ‘Intro to Computer Science’ at UIUC. Was Project Manager for two teams using Scrum to help build and ship two Kotlin Apps.
 
-[0] Kotlin Slides  <!--TODO: add links-->  
+[0] [Kotlin Slides](https://docs.google.com/presentation/d/1efdbPEUBnE5P_QJIuWO4aWLMJm2U5TwSn668uMNahi8/edit?usp=sharing)   
  &nbsp;   ↓   
 nullptr 
 
@@ -135,17 +141,17 @@ nullptr
 
    <div class="subhead purple-text"><b>NCWIT ASPIRATIONS IN COMPUTING REGIONAL ORGANIZER [2022]</b></div>
 
-Currently reviewing applications for the NCWIT AiC award and leading organization of the AiC award Ceremony for the Central Illinois Affiliate.
+Reviewed applications for the NCWIT AiC award and lead the organization of the AiC award Ceremony for the Central Illinois Affiliate.
 
    <div class="subhead purple-text"><b>ILLINOIS CS STARS RESEARCH FELLOW [2021-22]</b></div>
 
-Working on recruiting, mentorship and cohort-building activities like Hour of Code, [ChicTech](https://cs.illinois.edu/news/chictech-created-an-encouraging-computing-environment-for-high-school-students), [Trick or Research](https://cs.illinois.edu/news/trick-or-research-event-broke-down-barriers-to-undergraduates-in-research) and Admitted Women’s outreach.
+Worked on recruiting, mentorship and cohort-building activities like Hour of Code, [ChicTech](https://cs.illinois.edu/news/chictech-created-an-encouraging-computing-environment-for-high-school-students), [Trick or Research](https://cs.illinois.edu/news/trick-or-research-event-broke-down-barriers-to-undergraduates-in-research) and Admitted Women’s outreach.
 
 <div><body><b>leadership</b></body></div>
 
    <div class="subhead purple-text"><b><a href="https://acm.illinois.edu/">ACM @ UIUC</a></b>, Corporate Chair [2022], Social Media Chair [2021]</div>
 
-As the Corporate Chair for Association of Computing Machinery at Illinois, I have mentored a lead a team of 6 to raise $10,000+ in funding for our club during COVID-19. Additionally, I served as a mentor this summer to incoming freshman.
+As the Corporate Chair for Association of Computing Machinery at Illinois, I mentored a lead a team of 6 to raise $10,000+ in funding for our club during COVID-19. Additionally, I served as a mentor this summer to incoming freshman.
 
    <div class="subhead purple-text"><b><a href="https://www.reflectionsprojections.org/">Reflections | Projections</a></b>, Content Chair [2021]</div>
 
