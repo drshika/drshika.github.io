@@ -6,15 +6,15 @@ excerpt_separator: <!--more-->
 
 This is **unofficial**, largely anecdote-based advice on getting hired for the Microsoft Undergraduate Research Internship at Microsoft. This doc covers who the program is looking for, what the application requires, prompts, interview process, decision process, offers and what happens next. I decided to create this since there isn’t much information available online about this program. 
 <!--more-->
-source: I was offered a position for this program in 2022.
+source: I was an intern in this program in 2022.
 
 ## Disclaimer
 
-Again: I'm not a Microsoft recruiter, I can't get you hired here, and none of this advice is official (unless otherwise stated). These are reflections based on personal experience of past interns and me. I'm putting this right at the top and reiterating it so I don't have to say "my personal opinion is..." in every sentence.
+Again: I'm not a Microsoft recruiter, I can't get you hired here, and none of this advice is official (unless otherwise stated). These are reflections based on personal experience of past interns and me. I'm putting this right at the top and reiterating it, so I don't have to say "my personal opinion is..." in every sentence.
 
 ## Ideal Candidates
 
-From program coordinators: juniors/seniors who have some interest in research and are **committed to diversity and inclusion**
+Juniors/seniors who have some interest in research *(no prior research experience necessary)*
 
 ## Application
 
@@ -27,9 +27,9 @@ From program coordinators: juniors/seniors who have some interest in research an
         
         > Hello Professor xyz, 
         > 
-        >Hope you are doing well. My name is <name> and I am/was in your <lab> as <role> <research intern>. I am interested in applying for the Microsoft Undergraduate Research Internship <link here> and I was wondering if you would be able to write me a recommendation letter. The application is due *Nov 19th, 2021*. 
+        >Hope you are doing well. My name is (name) and I am/was in your (lab) as (role) (research intern). I am interested in applying for the Microsoft Undergraduate Research Internship (link here) and I was wondering if you would be able to write me a recommendation letter. The application is due *Nov 19th, 2021*. 
         >
-        >I feel like you would be an excellent person to speak to my contributions with <xyz>. If this is something you would have the capacity to do, please let me know what information you need for me (or if you would like to set up a quick meeting to gather the information you need) and I can provide that to you.
+        >I feel like you would be an excellent person to speak to my contributions with (xyz). If this is something you would have the capacity to do, please let me know what information you need for me (or if you would like to set up a quick meeting to gather the information you need) and I can provide that to you.
         >
         >Best,
     
@@ -46,36 +46,7 @@ From program coordinators: juniors/seniors who have some interest in research an
         1. Please describe ways you have **contributed to increasing
         diversity** and inclusion in your field and/or any unique challenges you
         may have faced and how you navigated those obstacles
-        2. Tips: this is a weed out questions for interviews so make sure you write a serious answer for this! I just talked about all the advocacy work that I have done in the past and what efforts I remain involved with at the moment. 
-- **MY ESSAYS**
-    
-    *Answer the prompt: What draws you to the desired research area(s) you selected and what **impact would you like to have in that space**?*
-    
-    >Research Areas chosen: Human-Computer interaction, Social Sciences, Human Language Technologies.
-    >
-    >When I was younger, It was common to interact with strangers on the internet with little to no moderation in place. Once, in middle school, I was harassed on an online site by a stranger, which scared me to interact freely with others online. Years later, as a freshman in college, I began working in UIUC's Social Computing Laboratory (SCUBA) and was introduced to the extensive breadth of research done in online moderation. Through my work with the SCUBA lab, I have become incredibly passionate about examining the factors that promote antisocial behavior on social networking sites and what we can do to reduce that kind of behavior.
-    >
-    >I began working with SCUBA through UIUC's Summer Research Experience for Undergraduates (REU) program. I worked closely with a graduate student in the lab on moderation on audio-based social platforms (ABSPs) such as Clubhouse, Discord, and Twitter Spaces. I scraped Twitter for tweets about moderation and user perspectives which helped my graduate mentor develop a novel analytical framework called MIC to understand voice-based social apps' affordances. This work eventually culminated into the paper [1], which is currently in a revision cycle with ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW), a top-tier Human-Computer Interaction Conference.
-    >
-    >In addition to contributing to the MIC project, I investigated other apps like Clubhouse, such as Twitter Spaces, Discord Stages, and Spotify Greenroom. I learned an NLP technique called Topic Modeling to analyze the different kinds of conversations surrounding these apps on Twitter to analyze these tweets. The two types of models I used were Sparse Additive Generative Models (SAGE) and LDA (Latent Dirichlet Allocation).
-    >
-    >Currently, I'm working with another graduate student in SCUBA on community resiliency and what factors promote disruptive behavior in college subreddits. In addition, I'm working on an online dashboard to visualize removed comments and identify trends in commenting behavior.
-    >
-    >As a result of my experiences, I'm interested in studying what creates safer, inclusive online spaces and building computational tools to measure and build this. To do so, I wish to focus my research on Human-Computer Interaction, Social Sciences, and Human Language technologies. I'd also like to learn more about improving accessibility or examining the impacts of technology on disabled individuals as a part of building inclusive online spaces.
-    >
-    >While moderation research genuinely excites me, I am open to working in other areas to build my skill set. The Microsoft Undergraduate Research Program can empower me to continue learning more about HCI through exposure to Microsoft researchers, visiting faculty, data and applied scientists, engineers, designers, and doctoral students. Industry research is probably very different from how it is structured in academia, and I would love to learn how the research mentorship process works at Microsoft.
-    >
-    >[1] Tanvi Bajpai, Drshika Asher, Anwesa Goswami, and Eshwar Chandrasekharan. 2021. Harmonizing the Cacophony: An Affordance-aware Framework of Audio-Based Social Platform Moderation. arXiv:2107.09008 [cs] (July 2021). Retrieved November 17, 2021 from https://arxiv.org/abs/2107.09008
-    
-    *Essay 2: Leadership in Diversity statement (Current 239, 250 words or fewer)*
-    
-    *Please describe **ways you have contributed to increasing diversity and inclusion in your field** and/or any unique challenges you may have faced and how you navigated those obstacles.*
-    
-    >When I was first exposed to computer science, it was in a classroom full of loud and confident male students who raced far ahead of the lectures to do fun side projects while I silently struggled with getting my command prompt to print "Hello World." Since then, I have worked hard to develop my skills and confidence in computer science and helped my female and URM peers. During my high school years, I was the president of our school's computer science club and organized many workshops and an event called "Girls Night of Code" during my sophomore-senior year to encourage middle school girls to pursue computer science.
-    >
-    >In college, I continue my commitment towards bridging the gender gap in computing by working closely with CS RSOs like Association for Computing Machinery (ACM) and WCS (Women in Computer Science). In addition, I'm actively involved with mentorship through the ACM Mentorship program and other national organizations like NCWIT (National Center for Women in Technology) and RTC (Rewriting the Code).
-    >
-    >This semester, the department recognized my research and outreach efforts, and I was selected to be a CS STARS ambassador. I'm fully funded to research with the SCUBA Lab. This program helps us build research skills while also interfacing with faculty and administration on increasing the number of women and URMs in research. We also organized events like Trick-Or-Research, to connect faculty and research opportunities to undergraduates looking to learn more about research.
+        2. Tips: make sure you quantify your accomplishments and provide key results/who was impacted on each of them.
     
 
 ## Interview Process/Timeline
@@ -99,7 +70,7 @@ December 27, 2021 - Got an email from my interviewers
 >
 >Congratulations! We have reviewed your submission to the Microsoft Research (MSR) Undergraduate Research Internship and would like to schedule you for an interview.
 >
->I'm <interviewer name>, and I will be conducting the interview. I’m Sr. Principal Researcher in the Productivity and Intelligence group in MSR. My research is on improving productivity of software engineers and data science using AI-based software systems. We will also be joined by at least one more researcher and I will let you know their names closer to the interview.
+>I'm (interviewer name), and I will be conducting the interview. I’m Sr. Principal Researcher in the (redacted) group in MSR. My research is on (redacted). We will also be joined by at least one more researcher and I will let you know their names closer to the interview.
 >
 >We hold the interviews online via Teams, and you can expect the interview to last 40-45 minutes. To help me schedule the interview, please let me know your availability on January 5-7.
 >
@@ -112,14 +83,14 @@ January 17, 2022 - Got an email from another program coordinator for a quick fol
 
 > Hi Drshika,
 >
->My name is <researcher two> and I am one of the organizers of the Microsoft Research Internship program.  I was wondering if you had time this week for a quick meeting?  Some of the work you are interested in pursuing overlaps with my current research efforts. I would love to meet you and hear more about your work and interests.
+>My name is (researcher two) and I am one of the organizers of the Microsoft Research Internship program.  I was wondering if you had time this week for a quick meeting?  Some of the work you are interested in pursuing overlaps with my current research efforts. I would love to meet you and hear more about your work and interests.
 
 
-January 19, 2022- Got another email from a researcher for a quick follow up chat:
+January 19, 2022- Got another email from a researcher for a quick follow-up chat:
 
 > Hi Drshika,
 >
->I am part of the undergrad intern program and I was wondering if you would have some free time to chat today or tomorrow?
+>I am part of the undergrad intern program, and I was wondering if you would have some free time to chat today or tomorrow?
 
 
 Jan 28, 2022 - Some people I was talking to got their offers!
@@ -128,7 +99,7 @@ Jan 31, 2022 - I got my offer!
 
 > Dear Drshika,
 >
->Congratulations! We  think you’d be a great addition to our program. We are recommending you  for one of the MSR Undergraduate Internship positions and we are really excited to work with you this summer. You will be mentored by <mentor name> in the Microsoft Research at Redmond lab (virtually).
+>Congratulations! We  think you’d be a great addition to our program. We are recommending you  for one of the MSR Undergraduate Internship positions, and we are really excited to work with you this summer. You will be mentored by (mentor name) in the Microsoft Research at Redmond lab (virtually).
 >
 >For us to extend an official offer:
 >
@@ -224,10 +195,12 @@ Thought I’d include this since I was unable to find any information on how muc
 
 - $7500-8000/month salary (I’ve heard people getting in this range based on seniority and experience)
 - $3500 housing stipend (this was during COVID-19 when the internship was virtual but afaik, it goes up to 7000$ for in-person internships)
+UPDATE: prior to visit week in June 2022, they increased our housing stipend to $7,000 in case any of us wanted to stay in Seattle after.
 - $450 credit for Microsoft software
 
 **Other Details**
 
 - You can choose your start and end date (they give you a table to help you decide)
-- Health insurance is included for the time that you are an intern
-- From past virtual years, it seems like they send you a computer (usually a thinkpad or surface), mouse, monitor, headphones or something along those lines. Also if there’s something specific your lab uses to do work, they will probably also send that to you. I’ll keep this updated on what happens with me since I’m in a VR Research Lab.
+- Health insurance and Vision benefits are included for the time that you are an intern
+- From past virtual years, it seems like they send you a computer (usually a thinkpad or surface), mouse, monitor, headphones or something along those lines. Also if there’s something specific your lab uses to do work, they will probably also send that to you. 
+- I was sent Surface Headphones and an Oculus Quest as intern gifts! 
