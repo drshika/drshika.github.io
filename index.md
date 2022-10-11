@@ -30,55 +30,44 @@ Drshika Asher *(she/they)*
 
 ## SYNOPSIS
 <!-- todo: eventually segment this off into a conditional/while loop so that we can do some nicer styling -->
-**Education:** Computer Science, Philosophy @ UIUC [Expected-2024]
+**Education:** Computer Science, Hoeft T&M XXVIII [Expected-2024]
 
 **Research:**  
 Microsoft Research Redmond [Undergrad Research Intern][2022]   
-Human Computer Interaction Lab [Research Intern][2022]   
-Social CompUting LaBoratory (SCUBA) [Research Intern][2021]   
+Social CompUting LaBoratory (SCUBA) [Research Intern][2021][2022]    
+Human Computer Interaction Lab [Research Intern][2022]    
 
-**Industry:**
-Cargill [SWE Intern][2022]  
+**Industry:**   
+Cargill [SWE Intern][2022]   
 EnterpriseWorks [Front-End Intern][2021]  
 
 ## DESCRIPTION 
 
-My name is Drshika. I’m a 14th grade student at the University of Illinois Urbana-Champaign studying Computer Science with a minor in Philosophy. 
+My name is Drshika. I’m a 15th grade student at the University of Illinois Urbana-Champaign studying Computer Science with a minor in technology and management. 
 
-I’m interested in learning more about Virtual/Augmented Reality, Accessibility, and Social Computing and have been researching with the HCI and SCuBa laboratory through the CS STARS Research Fellowship. 
+I’m interested in learning more about Virtual/Augmented Reality, Accessibility, and Social Computing and have been researching with the HCI and SCuBa laboratory through the Clare Boothe Luce and CS STARS Research Fellowship. 
 
-My studies and research are supported by scholarships from JP Morgan Chase, Cargill, Clare Boothe Luce Foundation and others.
+My studies and research are supported by scholarships from JP Morgan Chase, Bank of America, Cargill, Clare Boothe Luce Foundation and others.
 
-I love to help others and am a course assistant for CS225 (Data Structures) currently and CS196 (honors computer science) in the past.
+I love to help others and am a head course assistant for CS225 (Data Structures) currently and CS196 (honors computer science) in the past.
 
 In my free time, I indulge in singing hindustani classical music, biking on local trails, and attempting to cook various deserts.
 
 ## [NEWS](#news)
 
+<div class="subhead purple-text">[September, 2022]</div> Thanks to Bank of America and Rewriting the Code for providing me with a scholarship to attend the Grace Hopper Conference in Orlando, Florida!
+
+<div class="subhead purple-text">[August, 2022]</div> I'm super excited to be one of 30 RTC Rising Student Leaders for this academic year! I'll be the leader for the Gaming Interest group and will be hosting a lot of cool sessions and workshops with them.
+
 <div class="subhead purple-text">[May, 2022]</div> I'll be travelling to Minneapolis this summer! I was selected for the 2022 Cargill Global Scholars Program. Learn more [here](https://www.cargillglobalscholars.com/)
 
-<div class="subhead purple-text">[April, 2022]</div> I’m honored to be selected as one of six research scholars for the Clare Boothe Luce Research Fellowship program! See the other recipients [here](https://isur.engineering.illinois.edu/clare-boothe-luce-research-scholars/)
-
-<div class="subhead purple-text">[November, 2021]</div> I’m honored to receive the JP Morgan Chase WCS Scholarship for the 2021-22 school year! See the other recipients [here](https://cs.illinois.edu/about/awards/undergraduate-scholarships-awards/jp-morgan-chase-wcs-scholarship). 
-
-<div class="subhead purple-text">[October, 2021]</div> I co-hosted a talk with Illinois CS and the CTO of Reddit, Chris Slowe! See the article here: [link](https://cs.illinois.edu/news/reddit-tech-talk-with-cto-chris-slowe-presents-one-more-opportunity%20-for-involvement)
-
-<div class="subhead purple-text">[September, 2021]</div> As the Content-Co Chair of Reflections \| Projections, I helped host 16 speakers at Siebel center for CS! The conference had more than 1000+ attendees. 
-
-<div class="subhead purple-text">[August, 2021]</div> I've been selected as a Facebook Above and Beyond Computer Science scholar! I'm excited to learn from the mentors at Facebook, meet others in my cohort and grow my interviewing skills. 
-
-<div class="subhead purple-text">[August, 2021]</div> I’m excited that I've been selected as one of approximately 20 students for the CS STARS program! The program is a new initiative by the CS department to jointly encourage research and mentorship/outreach for women in computing. See the other STARS [here](https://cs.illinois.edu/broadening-participation-computing/programs/csambassadors)
-
-<div class="subhead purple-text">[May, 2021]</div> I’m excited to be contributing to UIUC’s @ ACM chapter as the new Corporate Chair!
-
-<div class="subhead purple-text">[May, 2019]</div> My birthday gift from AP CollegeBoard was this video from the AP+WE Conference re: my advocacy work for women in CS. Link: [https://www.facebook.com/WEmovement/videos/322348095104802](https://www.facebook.com/WEmovement/videos/322348095104802), start @ 3:08:09
-
+[-> Read older news](/another-page)
 
 ## RESEARCH
 
    <div class="subhead purple-text"><b>OVER-TRUST IN AUTOMATED SYSTEMS,</b> UIUC HCI LAB [2022]</div>
 
-*Mentors: Prof. Alex Kirlik and Sebastian Rodriguez*. I’m currently working on a project that’s examining how good automation systems are. Working with C# and Unity to build a game that determines whether the physicality of the agent affects user trust.
+*Mentors: Prof. Alex Kirlik and Sebastian Rodriguez*. I worked with the UIUC Human-Computer Interaction lab on a project about embodied agents in the context of trust, performance, and embodiment in a physical VR task. I contributed ideas in terms of shaping experimental design, researched and analyzed papers to the review of literature and helped design the VR game itself by programming in C# and Unity. I also dry ran the experiment with peers until it was ready to execute at a larger scale. 
 
    <div class="subhead purple-text"><b>CLASSIFYING AUDIO-SOCIAL PLATFORMS,</b>SCuBa LAB [2021]</div>
 
@@ -94,7 +83,7 @@ Preprint, July 2021. (accepted, ACM CSCW 2022) [[arXiv](https://arxiv.org/abs/21
 
    <div class="subhead purple-text"><b>CARGILL</b>, Software Engineering Intern [2022]</div>
 
-I was a software engineering intern with the Cargill Innovation lab where I collaborated with international stakeholders to build a unified react component library.
+I was a software engineering intern with the Cargill Innovation lab where I collaborated with international stakeholders to build a unified React component library.
 
    <div class="subhead purple-text"><b>ENTERPRISEWORKS</b>, Front-End Developer [2021]</div>
 
@@ -117,9 +106,9 @@ I prototyped a tool to summarize lecture transcripts to assist students in onlin
 ## SERVICE, LEADERSHIP & TEACHING
 
 <div><body><b>teaching</b> <i>(* == admin/head course assistant (CA))</i></body></div>   
-<div class="subhead purple-text"><b>CS225: DATA STRUCTURES</b>[SP2022]</div>
+<div class="subhead purple-text"><b>CS225: DATA STRUCTURES</b>[SP2022][FA2022*]</div>
 
-Data Structures and Algorithms in C++. With Carl Evans and Brad Solomon. 
+Data Structures and Algorithms in C++. With G. Carl Evans and Brad Solomon. 
 
 [0] [Exam 1 Review Guide](https://drshika.notion.site/Exam-1-Review-8222916da8114aceafafcd25db66dccc)   
  &nbsp;↓    
