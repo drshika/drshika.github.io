@@ -23,7 +23,7 @@ Juniors/seniors who have some interest in research *(no prior research experienc
 - 2 or 3 Reference Letters
     - I submitted one from my PI and one from the coordinator of a research d&i program I was part of. The coordinator of this program happened to be the head of the CS department at my university.
     - Tip: reach out to your recommenders 3-4 weeks in advance (or whenever the program opens) so that you can get the best possible letter.
-    - If you have never asked for a LOR before here’s how it works. Ask your recommender in person, follow up with asking via email and then send them to invitation on the portal.
+    - If you have never asked for a Letter of recommendation before here’s how it works. Ask your recommender in person, follow up with asking via email and then send them to invitation on the portal.
         
         > Hello Professor xyz, 
         > 
@@ -202,5 +202,5 @@ UPDATE: prior to visit week in June 2022, they increased our housing stipend to 
 
 - You can choose your start and end date (they give you a table to help you decide)
 - Health insurance and Vision benefits are included for the time that you are an intern
-- From past virtual years, it seems like they send you a computer (usually a thinkpad or surface), mouse, monitor, headphones or something along those lines. Also if there’s something specific your lab uses to do work, they will probably also send that to you. 
+- From past virtual years, it seems like they send you a computer (usually a ThinkPad or surface), mouse, monitor, headphones or something along those lines. Also if there’s something specific your lab uses to do work, they will probably also send that to you. 
 - I was sent Surface Headphones and an Oculus Quest as intern gifts! 
