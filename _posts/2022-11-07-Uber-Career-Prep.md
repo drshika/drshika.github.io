@@ -15,6 +15,11 @@ I'm not an Uber Recruiter, I can't get you hired or selected for the program, an
 
 CS/Computing adjacent students who have at least two interning summers left before they graduate. (for this year's program, you are graduating in 2025 or 2026)
 
+## Comments on Diversity
+Another fellow, Elias mentioned that he was the "the only Mexican in the 2022 cohort, with only 2 Latins total" (see his full article [here](https://medium.com/@EliasMaderaDeRegil/ucp-program-2022-how-uber-offers-a-one-of-a-kind-opportunity-for-cs-students-to-kick-start-their-dbb672a306ae)). 
+
+I think Uber has a two pronged goal for this program; (1) Increase access to quality CS education and (2) Increase diversity in the recruiting pipeline. I feel like these goals are a little conflicting since recruiting priorities are to get the brightest minds from the top schools. Reaching genuinely marginalized people means reaching out to non-target schools and to folks in schools outside the US. The people who would genuinely benefit the most from the program are not overcommitted top students at Stanford, UIUC, Berkeley, Georgia Tech, Duke, Princeton and Columbia but actually folks in community college or no-name universities outside US who are still very smart but don't get opportunities.
+
 ## Application
 - Resume
 - Transcript
