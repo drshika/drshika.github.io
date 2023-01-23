@@ -24,32 +24,32 @@ Drshika Asher *(she/they)*
 <br/>
 <div class="purple-text">[LinkedIn:<a href="https://www.linkedin.com/in/drshikaasher/">@drshikaasher</a>][Twitter:<a href="https://twitter.com/drshika_">@drshika_</a>][Github:<a href="https://github.com/drshika">@drshika</a>]</div>
 <br/>
-<div class="purple-text">[drshika2(at)illinois(dot)edu]</div> <!-- TODO: fix weird space before link chi-->
+<div class="purple-text">[drshika2(at)illinois(dot)edu]</div> 
 </div>
 </p>
 
 ## SYNOPSIS
-<!-- todo: eventually segment this off into a conditional/while loop so that we can do some nicer styling -->
 **Education:** Computer Science, Hoeft T&M XXVIII [Expected-2024]
+
+**Industry:**
+Uber [SWE Intern][2023]   
+Cargill [SWE Intern][2022]   
+EnterpriseWorks [Front-End Intern][2021]  
 
 **Research:**  
 Microsoft Research Redmond [Undergrad Research Intern][2022]   
 Social CompUting LaBoratory (SCUBA) [Research Intern][2021][2022]    
 Human Computer Interaction Lab [Research Intern][2022]    
 
-**Industry:**   
-Cargill [SWE Intern][2022]   
-EnterpriseWorks [Front-End Intern][2021]  
-
 ## DESCRIPTION 
 
-My name is Drshika. I’m a 15th grade student at the University of Illinois Urbana-Champaign studying Computer Science with a minor in technology and management. 
+My name is Drshika. I’m a (currently on hiatus) 16th grade student at the University of Illinois Urbana-Champaign studying Computer Science with a minor in technology and management. 
 
 I’m interested in learning more about Virtual/Augmented Reality, Accessibility, and Social Computing and have been researching with the HCI and SCuBa laboratory through the Clare Boothe Luce and CS STARS Research Fellowship. 
 
 My studies and research are supported by scholarships from JP Morgan Chase, Bank of America, Cargill, Clare Boothe Luce Foundation and others.
 
-I love to help others and am a head course assistant for CS225 (Data Structures) currently and CS196 (honors computer science) in the past.
+I love to help others and was a head course assistant for CS225 (Data Structures) and CS196 (honors computer science).
 
 In my free time, I indulge in singing hindustani classical music, biking on local trails, and attempting to cook various deserts.
 
@@ -61,7 +61,7 @@ In my free time, I indulge in singing hindustani classical music, biking on loca
 
 <div class="subhead purple-text">[May, 2022]</div> I'll be travelling to Minneapolis this summer! I was selected for the 2022 Cargill Global Scholars Program. Learn more [here](https://www.cargillglobalscholars.com/)
 
-[-> Read older news](/another-page)
+[-> Read older news](/news-archive)
 
 ## RESEARCH
 
@@ -80,6 +80,9 @@ Tanvi Bajpai, **Drshika Asher**, Anwesa Goswami, and Eshwar Chandrasekharan
 Preprint, July 2021. (accepted, ACM CSCW 2022) [[arXiv](https://arxiv.org/abs/2107.09008)]
 
 ## INDUSTRY
+   <div class="subhead purple-text"><b>UBER</b>, Software Engineering Intern [2023]</div>
+
+I'm excited to be starting my internship with the Uber Eats engineering team in San Francisco!
 
    <div class="subhead purple-text"><b>CARGILL</b>, Software Engineering Intern [2022]</div>
 
@@ -116,6 +119,8 @@ Data Structures and Algorithms in C++. With G. Carl Evans and Brad Solomon.
  &nbsp;↓   
 [2] [Exam 3 Review Guide](https://www.notion.so/drshika/Exam-3-Review-cd5493319d2545d2b099dc10a690ec31)   
  &nbsp;↓   
+[3] [(wip) Class Texbook](https://drshika.github.io/cs225-coursebook/)   
+ &nbsp;↓  
 nullptr 
 
    <div class="subhead purple-text"><b>CS196: COMPUTER SCIENCE HONOR</b> [SP2021*][FA2021]</div>
