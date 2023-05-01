@@ -133,8 +133,8 @@ Once you’re satisfied with everything here, you can move on to the next step, 
 
 \section{Education}
 \subsection{UIUC}
-    \textbf{Coursework:} Computer Science I, Computer Science II, Computer Science III, Ethics for Computer Science \\
-    \textbf{Awards:} Professional paper towel Juggler of the year 2020
+    \item \textbf{Coursework:} Computer Science I, Computer Science II, Computer Science III, Ethics for Computer Science \\
+    \item \textbf{Awards:} Professional paper towel Juggler of the year 2020
     
 \section{Experience}
 \subsection{A Company}
@@ -525,8 +525,8 @@ Now to use this in our code, you can type out the macro `\uiuc` wherever you wan
 \section{Education}
     \begin{rSubsection}
         {\uiuc}{August 2020 - May 2024}{BS Computer Science}{\loc}
-        \textbf{Coursework:} Computer Science I, Computer Science II, Computer Science III, Ethics for Computer Science \\
-        \textbf{Awards:} Professional paper towel Juggler of the year (2020)
+        \item{} \textbf{Coursework:} Computer Science I, Computer Science II, Computer Science III, Ethics for Computer Science \\
+        \item{} \textbf{Awards:} Professional paper towel Juggler of the year (2020)
     \end{rSubsection}
 ```
 

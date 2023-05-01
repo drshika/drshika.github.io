@@ -29,9 +29,10 @@ Drshika Asher *(she/they)*
 </p>
 
 ## SYNOPSIS
-**Education:** Computer Science, Hoeft T&M XXVIII [Expected-2024]
+**Education:** Computer Science [Expected-2024]
 
 **Industry:**
+MongoDB [SWE Intern][2023]
 Uber [SWE Intern][2023]   
 Cargill [SWE Intern][2022]   
 EnterpriseWorks [Front-End Intern][2021]  
@@ -43,15 +44,15 @@ Human Computer Interaction Lab [Research Intern][2022]
 
 ## DESCRIPTION 
 
-My name is Drshika. I’m a (currently on hiatus) 16th grade student at the University of Illinois Urbana-Champaign studying Computer Science with a minor in technology and management. 
+My name is Drshika. I’m a (currently on hiatus) 16th grade student at the University of Illinois Urbana-Champaign studying Computer Science. 
 
 I’m interested in learning more about Virtual/Augmented Reality, Accessibility, and Social Computing and have been researching with the HCI and SCuBa laboratory through the Clare Boothe Luce and CS STARS Research Fellowship. 
 
-My studies and research are supported by scholarships from JP Morgan Chase, Bank of America, Cargill, Clare Boothe Luce Foundation and others.
+My studies and research are supported by scholarships from JP Morgan Chase, Bank of America, Cargill, Clare Boothe Luce Foundation and others. 
 
-I love to help others and was a head course assistant for CS225 (Data Structures) and CS196 (honors computer science).
+I love to help others and was a head course assistant for CS225 (Data Structures) and CS196 (honors computer science). 
 
-In my free time, I indulge in singing hindustani classical music, biking on local trails, and attempting to cook various deserts.
+In my free time, I enjoy singing hindustani classical music, biking on local trails, and attempting to cook various deserts. 
 
 ## [NEWS](#news)
 
@@ -82,7 +83,7 @@ Preprint, July 2021. (accepted, ACM CSCW 2022) [[arXiv](https://arxiv.org/abs/21
 ## INDUSTRY
    <div class="subhead purple-text"><b>UBER</b>, Software Engineering Intern [2023]</div>
 
-I'm excited to be starting my internship with the Uber Eats engineering team in San Francisco!
+I was on the Membership Platform Team where I wrote a high-performance Golang REST API endpoint that serves 60k queries per second (QPS). I was able to decrease latency by 36.2% for three flows. 
 
    <div class="subhead purple-text"><b>CARGILL</b>, Software Engineering Intern [2022]</div>
 
@@ -133,7 +134,7 @@ nullptr
 
 <div><body><b>service</b></body></div>
 
-   <div class="subhead purple-text"><b>NCWIT ASPIRATIONS IN COMPUTING REGIONAL ORGANIZER [2022]</b></div>
+   <div class="subhead purple-text"><b>NCWIT ASPIRATIONS IN COMPUTING REGIONAL ORGANIZER [2022][2023]</b></div>
 
 Reviewed applications for the NCWIT AiC award and lead the organization of the AiC award Ceremony for the Central Illinois Affiliate.
 
