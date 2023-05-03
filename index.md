@@ -32,7 +32,7 @@ Drshika Asher *(she/they)*
 **Education:** Computer Science [Expected-2024]
 
 **Industry:**
-MongoDB [SWE Intern][2023]
+MongoDB [SWE Intern][2023]   
 Uber [SWE Intern][2023]   
 Cargill [SWE Intern][2022]   
 EnterpriseWorks [Front-End Intern][2021]  
