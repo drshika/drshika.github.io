@@ -19,7 +19,7 @@ Drshika Asher *(she/they)*
 <p>
 <div style="margin-left: 10%">
 <div class="purple-text">
-[<a href="assets/css/files/asher_drshika_resume.pdf">Resume</a>][<a href="assets/css/files/asher_drshika_cv.pdf">CV</a>]
+[<a href="assets/css/files/Asher_Drshika_resume.pdf">Resume</a>][<a href="assets/css/files/asher_drshika_cv.pdf">CV</a>]
 </div>
 <br/>
 <div class="purple-text">[LinkedIn:<a href="https://www.linkedin.com/in/drshikaasher/">@drshikaasher</a>][Twitter:<a href="https://twitter.com/drshika_">@drshika_</a>][Github:<a href="https://github.com/drshika">@drshika</a>]</div>
