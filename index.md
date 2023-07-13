@@ -46,7 +46,7 @@ Human Computer Interaction Lab [Research Intern][2022]
 
 My name is Drshika. I’m a (currently on hiatus) 16th grade student at the University of Illinois Urbana-Champaign studying Computer Science. 
 
-I’m interested in learning more about Virtual/Augmented Reality, Accessibility, and Social Computing and have been researching with the HCI and SCuBa laboratory through the Clare Boothe Luce and CS STARS Research Fellowship. 
+I’m interested in learning more about Virtual/Augmented Reality, Finance, Accessibility, and Social Computing and have been researching with the HCI and SCuBa laboratory through the Clare Boothe Luce and CS STARS Research Fellowship. 
 
 My studies and research are supported by scholarships from JP Morgan Chase, Bank of America, Cargill, Clare Boothe Luce Foundation and others. 
 
@@ -81,6 +81,11 @@ Tanvi Bajpai, **Drshika Asher**, Anwesa Goswami, and Eshwar Chandrasekharan
 Preprint, July 2021. (accepted, ACM CSCW 2022) [[arXiv](https://arxiv.org/abs/2107.09008)]
 
 ## INDUSTRY
+
+   <div class="subhead purple-text"><b>MONGODB</b>, Software Engineering Intern [2023]</div>
+
+I am currently on the Database Experience - Rust Driver Team where I wam working on an API for the open source MongoDB rust driver available here: [https://github.com/mongodb/mongo-rust-driver](https://github.com/mongodb/mongo-rust-driver). 
+   
    <div class="subhead purple-text"><b>UBER</b>, Software Engineering Intern [2023]</div>
 
 I was on the Membership Platform Team where I wrote a high-performance Golang REST API endpoint that serves 60k queries per second (QPS). I was able to decrease latency by 36.2% for three flows. 
