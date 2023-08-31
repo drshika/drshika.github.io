@@ -44,17 +44,21 @@ Human Computer Interaction Lab [Research Intern][2022]
 
 ## DESCRIPTION 
 
-My name is Drshika. I’m a (currently on hiatus) 16th grade student at the University of Illinois Urbana-Champaign studying Computer Science. 
+My name is Drshika. I’m a 16th grade student at the University of Illinois Urbana-Champaign studying Computer Science. 
 
-I’m interested in learning more about Virtual/Augmented Reality, Finance, Accessibility, and Social Computing and have been researching with the HCI and SCuBa laboratory through the Clare Boothe Luce and CS STARS Research Fellowship. 
+I'm actively looking for full-time roles in full stack and backend software engineering and would love to chat if your organization is recruiting for roles related to Virtual/Augmented Reality, Computer Systems, Accessibilty or Finance!  
+
+I was involved with a lot of undergraduate research in HCI and SCuBa (Social CompUting laBorAtory) through the Clare Boothe Luce and CS STARS Research Fellowship. 
 
 My studies and research are supported by scholarships from JP Morgan Chase, Bank of America, Cargill, Clare Boothe Luce Foundation and others. 
 
 I love to help others and was a head course assistant for CS225 (Data Structures) and CS196 (honors computer science). 
 
-In my free time, I enjoy singing hindustani classical music, biking on local trails, and attempting to cook various deserts. 
+In my free time, I enjoy singing hindustani classical music, biking on local trails, and attempting to bake various deserts. 
 
 ## [NEWS](#news)
+
+<div class="subhead purple-text">[September, 2023]</div>Thank you to Rewriting the Code for the generous scholarship to attend Grace Hopper 2023! I'm sooo excited to meet my fellow peer leaders and get inspired by leaders in industry and academia :)
 
 <div class="subhead purple-text">[September, 2022]</div> Thanks to Bank of America and Rewriting the Code for providing me with a scholarship to attend the Grace Hopper Conference in Orlando, Florida!
 
@@ -84,7 +88,7 @@ Preprint, July 2021. (accepted, ACM CSCW 2022) [[arXiv](https://arxiv.org/abs/21
 
    <div class="subhead purple-text"><b>MONGODB</b>, Software Engineering Intern [2023]</div>
 
-I am currently on the Database Experience - Rust Driver Team where I wam working on an API for the open source MongoDB rust driver available here: [https://github.com/mongodb/mongo-rust-driver](https://github.com/mongodb/mongo-rust-driver). 
+I was on the Database Experience - Rust Driver Team where I worked on an API endpoint for the open source MongoDB rust driver available here: [https://github.com/mongodb/mongo-rust-driver](https://github.com/mongodb/mongo-rust-driver). I also updated 10 tests, fixed 3 bugs and updated pages of documentation across the rust-driver and bson-rust repository. 
    
    <div class="subhead purple-text"><b>UBER</b>, Software Engineering Intern [2023]</div>
 
