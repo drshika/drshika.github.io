@@ -78,9 +78,11 @@ In my free time, I enjoy singing hindustani classical music, biking on local tra
 
 *Mentors: Prof. Eshwar Chandrashekaran and Tanvi Bajpai*. I investigated the structure and norms of the voice based platform Clubhouse and documented the different forms of abuse on voice based platforms like Twitter Spaces, Discord Stages as well as Spotify Greenroom. We analyzed these trends using Natural Language Processing techniques like LDA and SAGE. See my talk from the virtual REU poster session [here](https://cs.illinois.edu/research/undergraduate-research/summer-research-experience-undergraduates/participants/drshika-asher)
 
-**PUBLICATIONS**
+**PUBLICATIONS**   
+Validating trust in human-robot interaction through virtual reality: Comparing embodied and "behind-the-screen" interactions   
+Sebastian Rodriguez, Harsh Deep, **Drshika Asher**, James Schaffer, Alex Kirlik, USA (accepted, AHFE 2023) [axriv link to come!]
 
-Harmonizing the Cacophony: An Affordance-aware Framework of Audio-Based Social Platform Moderation
+Harmonizing the Cacophony: An Affordance-aware Framework of Audio-Based Social Platform Moderation   
 Tanvi Bajpai, **Drshika Asher**, Anwesa Goswami, and Eshwar Chandrasekharan
 Preprint, July 2021. (accepted, ACM CSCW 2022) [[arXiv](https://arxiv.org/abs/2107.09008)]
 
