@@ -62,7 +62,7 @@ Operating System: MacOS Sonoma on a M3 Pro.
         - Catpuccin Latte Everything! Except my slightly customized powershell prompt which I will share in my complete dotfiles soon!
 
 ## Browser
-A lot has changed since I first compiled this list. During school, I had to eventually switch to chrome due to the poor integration with safari for many sites. Now that I've graduated, I have switched to using arc out of curiosity. Do I still love open source? Yes. Is Firefox slowly becoming a pain to use on everything? Also yes. So I have given up on that for now. Might switch back to Firefox once the novelty wears off...
+A lot has changed since I first compiled this list. During school, I had to eventually switch to chrome due to the poor integration with Firefox for many sites. Now that I've graduated, I have switched to using arc out of curiosity. Do I still love open source? Yes. Is Firefox slowly becoming a pain to use on everything? Also yes. So I have given up on that for now. Might switch back to Firefox once the novelty wears off...
 
 - [Arc Browser - Referral Link](https://arc.net/gift/13c590ff): has some nice features like PiP, treestyle** (not exactly the same but vertical layout with tab groups) tabs, tab groups, split screen, usercss and more inbuilt. Not sponsored but generally my favorite at the moment. 
 
