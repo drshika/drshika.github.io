@@ -60,6 +60,7 @@ Operating System: MacOS Sonoma on a M3 Pro.
     - Themes: (OhMyZSH)[https://ohmyz.sh/] and (Starship)[https://starship.rs]
         - I use [these](https://gist.github.com/n1snt/454b879b8f0b7995740ae04c5fb5b7df) OhMyZSH plugins as of now since I recently switched over from fish shell. 
         - Catpuccin Latte Everything! Except my slightly customized powershell prompt which I will share in my complete dotfiles soon!
+
 ## Browser
 A lot has changed since I first compiled this list. During school, I had to eventually switch to chrome due to the poor integration with safari for many sites. Now that I've graduated, I have switched to using arc out of curiosity. Do I still love open source? Yes. Is Firefox slowly becoming a pain to use on everything? Also yes. So I have given up on that for now. Might switch back to Firefox once the novelty wears off...
 
