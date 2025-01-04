@@ -3,6 +3,7 @@ description: Drshika Asher's Personal Website
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-cayman
+quiet: true
 # url: 'http://drshika.github.io'
 plugins:
   - jekyll-katex
