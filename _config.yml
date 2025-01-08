@@ -1,10 +1,36 @@
 title: Drshika Asher
-description: Drshika Asher's Personal Website
+description: Drshika's Personal Website
+author: Drshika Asher
 show_downloads: false
 google_analytics:
-theme: jekyll-theme-cayman
+theme: jekyll-theme-manpage
+skin: purple # Available skins: purple, tomorrow, github, dracula, nord, monokai
 quiet: true
-# url: 'http://drshika.github.io'
+favicon:
+  svg: /assets/images/favicon.ico
+url: "https://jekyll-theme-manpage.netlify.app"
 plugins:
-  - jekyll-katex
+  - jekyll-remote-theme
+  - jekyll-katex  
+  - jekyll-seo-tag
+  - jekyll-toc
+  - jekyll-feed
+  - jekyll-sitemap
+features:
+  comments: true  # Set to true to enable Giscus comments
+  rss_feed: true  # Set to true to enable RSS feed
+  search: true  # Set to true to enable search
+  google_analytics: false  # Set to true to enable Google Analytics
+  tags: true  # Set to true to enable tags
+  read_time: true  # Set to true to enable read time
+  back_to_top: true  # Set to true to enable back to top button
 excerpt_separator: "<!--more-->"
+toc:
+  min_level: 1 # default: 1
+  max_level: 3 # default: 6
+  ordered_list: false # default: false
+  no_toc_section_class: no_toc_section # default: no_toc_section
+  list_class: section-nav # default: section-nav
+  sublist_class: '' # default: ''
+  item_class: toc-entry # default: toc-entry
+  item_prefix: toc- # default: toc-

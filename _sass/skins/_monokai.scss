@@ -1,0 +1,118 @@
+// Base colors
+$theme-color: #a6e22e;         // Green
+$theme-color-secondary: #66d9ef;  // Blue
+$bg-color: #fafafa;            // Light Background
+$text-color: #272822;          // Dark Gray
+
+// Light mode derived colors
+$blockquote-text-color-light: #75715e;  // Brown
+$code-bg-color-light: #f5f5f5;          // Light Gray
+$border-color-light: rgba(39, 40, 34, 0.3);
+$link-hover-color-light: #fd971f;       // Orange
+$placeholder-color-light: #90908a;
+$highlight-color-light: rgba(#a6e22e, 0.15);
+
+// Dark mode base colors
+$dark-theme-color: #a6e22e;         // Green
+$dark-theme-color-secondary: #66d9ef;  // Blue
+$dark-bg-color: #272822;            // Dark Background
+$dark-text-color: #f8f8f2;          // Light Gray
+
+// Dark mode derived colors
+$blockquote-text-color-dark: #75715e;  // Brown
+$code-bg-color-dark: #3c3d37;          // Lighter Background
+$border-color-dark: rgba(248, 248, 242, 0.3);
+$link-hover-color-dark: #fd971f;       // Orange
+$placeholder-color-dark: #a6e22e;
+$highlight-color-dark: rgba(#a6e22e, 0.2);
+
+// Light mode syntax colors
+$syntax-comment-light: #75715e;    // Brown
+$syntax-error-light: #f92672;      // Pink
+$syntax-keyword-light: #f92672;    // Pink
+$syntax-operator-light: #272822;   // Dark Gray
+$syntax-function-light: #a6e22e;   // Green
+$syntax-variable-light: #fd971f;   // Orange
+$syntax-string-light: #e6db74;     // Yellow
+$syntax-number-light: #ae81ff;     // Purple
+$syntax-attribute-light: #a6e22e;  // Green
+$syntax-class-light: #66d9ef;      // Blue
+$syntax-builtin-light: #66d9ef;    // Blue
+$syntax-namespace-light: #66d9ef;  // Blue
+$syntax-constant-light: #ae81ff;   // Purple
+$syntax-deleted-light: #f92672;    // Pink
+$syntax-inserted-light: #a6e22e;   // Green
+
+// Dark mode syntax colors
+$syntax-comment-dark: #75715e;     // Brown
+$syntax-error-dark: #f92672;       // Pink
+$syntax-keyword-dark: #f92672;     // Pink
+$syntax-operator-dark: #f8f8f2;    // Light Gray
+$syntax-function-dark: #a6e22e;    // Green
+$syntax-variable-dark: #fd971f;    // Orange
+$syntax-string-dark: #e6db74;      // Yellow
+$syntax-number-dark: #ae81ff;      // Purple
+$syntax-attribute-dark: #a6e22e;   // Green
+$syntax-class-dark: #66d9ef;       // Blue
+$syntax-builtin-dark: #66d9ef;     // Blue
+$syntax-namespace-dark: #66d9ef;   // Blue
+$syntax-constant-dark: #ae81ff;    // Purple
+$syntax-deleted-dark: #f92672;     // Pink
+$syntax-inserted-dark: #a6e22e;    // Green
+
+:root {
+  --theme-color: #{$theme-color};
+  --theme-color-secondary: #{$theme-color-secondary};
+  --bg-color: #{$bg-color};
+  --text-color: #{$text-color};
+  --blockquote-text-color: #{$blockquote-text-color-light};
+  --code-bg-color: #{$code-bg-color-light};
+  --border-color: #{$border-color-light};
+  --link-hover-color: #{$link-hover-color-light};
+  --placeholder-color: #{$placeholder-color-light};
+  --syntax-comment: #{$syntax-comment-light};
+  --syntax-error: #{$syntax-error-light};
+  --syntax-keyword: #{$syntax-keyword-light};
+  --syntax-operator: #{$syntax-operator-light};
+  --syntax-function: #{$syntax-function-light};
+  --syntax-variable: #{$syntax-variable-light};
+  --syntax-string: #{$syntax-string-light};
+  --syntax-number: #{$syntax-number-light};
+  --syntax-attribute: #{$syntax-attribute-light};
+  --syntax-class: #{$syntax-class-light};
+  --syntax-builtin: #{$syntax-builtin-light};
+  --syntax-namespace: #{$syntax-namespace-light};
+  --syntax-constant: #{$syntax-constant-light};
+  --syntax-deleted: #{$syntax-deleted-light};
+  --syntax-inserted: #{$syntax-inserted-light};
+  --highlight-color: #{$highlight-color-light};
+}
+
+
+[data-theme="dark"] {
+  --theme-color: #{$dark-theme-color};
+  --theme-color-secondary: #{$dark-theme-color-secondary};
+  --bg-color: #{$dark-bg-color};
+  --text-color: #{$dark-text-color};
+  --blockquote-text-color: #{$blockquote-text-color-dark};
+  --code-bg-color: #{$code-bg-color-dark};
+  --border-color: #{$border-color-dark};
+  --link-hover-color: #{$link-hover-color-dark};
+  --placeholder-color: #{$placeholder-color-dark};
+  --syntax-comment: #{$syntax-comment-dark};
+  --syntax-error: #{$syntax-error-dark};
+  --syntax-keyword: #{$syntax-keyword-dark};
+  --syntax-operator: #{$syntax-operator-dark};
+  --syntax-function: #{$syntax-function-dark};
+  --syntax-variable: #{$syntax-variable-dark};
+  --syntax-string: #{$syntax-string-dark};
+  --syntax-number: #{$syntax-number-dark};
+  --syntax-attribute: #{$syntax-attribute-dark};
+  --syntax-class: #{$syntax-class-dark};
+  --syntax-builtin: #{$syntax-builtin-dark};
+  --syntax-namespace: #{$syntax-namespace-dark};
+  --syntax-constant: #{$syntax-constant-dark};
+  --syntax-deleted: #{$syntax-deleted-dark};
+  --syntax-inserted: #{$syntax-inserted-dark};
+  --highlight-color: #{$highlight-color-dark};
+}

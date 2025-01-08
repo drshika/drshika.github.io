@@ -1,14 +1,64 @@
-<!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+<!-- start custom head snippets -->
 
-<!-- KaTeX-->
+<!-- Theme Switcher -->
+<script src="{{ '/assets/js/theme-switcher.js' | relative_url }}"></script>
+
+<!-- Common meta tags -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+
+<!-- KaTeX - only load if page.katex is true -->
 {% if page.katex %}
-<link rel="stylesheet" href="/assets/plugins/katex.0.11.1/katex.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.19/dist/katex.min.css"
+    integrity="sha384-7lU0muIg/i1plk7MgygDUp3/bNRA65orrBub4/OSWHECgwEsY83HaS1x3bljA/XV" crossorigin="anonymous">
+<!-- The loading of KaTeX is deferred to speed up page rendering -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.19/dist/katex.min.js"
+    integrity="sha384-RdymN7NRJ+XoyeRY4185zXaxq9QWOOx3O7beyyrRK4KQZrPlCDQQpCu95FoCGPAE"
+    crossorigin="anonymous"></script>
+<!-- To automatically render math in text elements, include the auto-render extension: -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.19/dist/contrib/auto-render.min.js"
+    integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.19/dist/contrib/mhchem.min.js"
+    integrity="sha384-F2ptQFZqNJuqfGGl28mIXyQ5kXH48spn7rcoS0Y9psqIKAcZPLd1NzwFlm/bl1mH"
+    crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        renderMathInElement(document.body, {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "\\[", right: "\\]", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false }
+            ]
+
+        });
+    });
+</script>
 {% endif %}
 
-<!-- Setup Google Analytics -->
-{% include head-custom-google-analytics.html %}
+<!-- Favicons -->
+{% if site.favicon %}
+{% if site.favicon.svg %}
+<link rel="icon" type="image/svg+xml" href="{{ site.favicon.svg | relative_url }}">
+{% endif %}
+{% if site.favicon.ico %}
+<link rel="alternate icon" type="image/x-icon" href="{{ site.favicon.ico | relative_url }}">
+{% endif %}
+{% if site.favicon.png32 %}
+<link rel="alternate icon" type="image/png" sizes="32x32" href="{{ site.favicon.png32 | relative_url }}">
+{% endif %}
+{% if site.favicon.png16 %}
+<link rel="alternate icon" type="image/png" sizes="16x16" href="{{ site.favicon.png16 | relative_url }}">
+{% endif %}
+{% endif %}
 
-<!-- You can set your favicon here -->
-<!-- link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}" -->
+<!-- RSS Feed -->
+{% if site.features.rss_feed %}
+{% feed_meta %}
+{% endif %}
+
+<!-- Google Analytics -->
+{% include head-custom-google-analytics.html %}
 
 <!-- end custom head snippets -->

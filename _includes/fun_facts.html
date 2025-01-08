@@ -1,0 +1,9 @@
+<div class="fun-facts">
+    {% for fact in site.data.facts.facts %}
+      <div class="fact-item">
+        [{{ forloop.index0 }}] {{ fact }}
+        <div class="arrow">↓</div>
+      </div>
+    {% endfor %}
+    <div class="fact-item">nullptr</div>
+  </div>

@@ -3,8 +3,8 @@ pages:
   link: /#research
 - name: Industry
   link: /#industry
-- name: Projects
-  link: /#projects
+# - name: Projects
+#   link: /#projects
 - name: Service & Leadership
   link: /#service-leadership--teaching
 - name: News

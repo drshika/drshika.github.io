@@ -1,0 +1,825 @@
+// Imports and dependencies
+@use "sass:meta";
+@use "normalize";
+@use "variables" as v;
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+//UNCOMMENT THESE IF YOU HAVE NITTI 
+@font-face {
+  font-family: 'Nitti';
+  src: url('../../assets/fonts/Nitti-Normal.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nitti';
+  src: url('../../assets/fonts/Nitti-NormalItalic.otf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Nitti';
+  src: url('../../assets/fonts/Nitti-Bold.otf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nitti';
+  src: url('../../assets/fonts/Nitti-BoldItalic.otf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+// =============================
+// Mixins
+// =============================
+@mixin large {
+  @media screen and (min-width: #{v.$large-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media screen and (min-width: #{v.$medium-breakpoint}) and (max-width: #{v.$large-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin small {
+  @media screen and (max-width: #{v.$medium-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin content-wrapper {
+  word-wrap: break-word;
+
+  :first-child {
+    margin-top: 0;
+  }
+
+  @include large {
+    max-width: 64rem;
+    font-size: 1.1rem;
+  }
+
+  @include medium {
+    font-size: 1.1rem;
+  }
+
+  @include small {
+    font-size: 1rem;
+  }
+}
+
+@mixin code-block {
+  padding: 0.8rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font: 1rem v.$font-family-mono;
+  color: v.$code-text-color;
+  background-color: v.$code-bg-color;
+  border: solid 1px v.$border-color;
+  border-radius: 0.3rem;
+}
+
+// =============================
+// Base Styles
+// =============================
+:root {
+  color-scheme: light;
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: v.$font-family-mono;
+  font-size: v.$font-size-base;
+  line-height: v.$line-height-base;
+  color: v.$text-color;
+  background-color: v.$bg-color;
+}
+
+a {
+  color: v.$link-color;
+  text-decoration: none;
+  transition: text-decoration 0.2s ease-in-out;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// =============================
+// Layout Components
+// =============================
+.page-header {
+  color: v.$theme-color;
+  text-align: left;
+
+  @include large {
+    max-width: 64rem;
+    padding: 5rem 6rem 0 4rem;
+    margin: 0 auto;
+  }
+
+  @include medium {
+    padding: 3rem 4rem 0 2rem;
+    margin: 0 auto;
+  }
+
+  @include small {
+    padding: 2rem 1rem 0 2rem;
+    margin: 0 auto;
+  }
+}
+
+.project-name {
+  margin-top: 0;
+  margin-bottom: 0.1rem;
+  color: v.$theme-color;
+
+  @include large {
+    font-size: 3.25rem;
+    max-width: 64rem;
+    padding: 5rem 6rem 0 0;
+    margin: 0 auto;
+  }
+
+  @include medium {
+    font-size: 2.5rem;
+    padding: 3rem 4rem 0 0;
+    margin: 0 auto;
+  }
+
+  @include small {
+    font-size: 1.75rem;
+    padding: 2rem 1rem 0 0;
+    margin: 0 auto;
+  }
+}
+
+.project-tagline {
+  margin-bottom: 2rem;
+  font-weight: normal;
+  color: v.$blockquote-text-color;
+
+  @include large {
+    font-size: 1.25rem;
+  }
+
+  @include medium {
+    font-size: 1.15rem;
+  }
+
+  @include small {
+    font-size: 1rem;
+  }
+}
+
+// Main content styles (shared between .main-content and .main-content-home)
+%content-shared {
+  @include content-wrapper;
+
+  // Typography
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+    color: v.$section-headings-color;
+  }
+
+  p {
+    margin-bottom: 1em;
+  }
+
+  // Code elements
+  code {
+    padding: 2px 4px;
+    font-family: v.$font-family-mono;
+    font-size: 0.9rem;
+    color: v.$code-text-color;
+    background-color: v.$code-bg-color;
+    border-radius: 0.3rem;
+  }
+
+  pre {
+    @include code-block;
+    word-wrap: normal;
+    color: v.$code-text-color;
+    background-color: v.$code-bg-color;
+    border: solid 1px v.$border-color;
+
+    >code {
+      padding: 0;
+      margin: 0;
+      font-size: 0.9rem;
+      word-break: normal;
+      white-space: pre;
+      background: transparent;
+      border: 0;
+    }
+  }
+
+  // Lists and blockquotes
+  ul,
+  ol {
+    margin-top: 0;
+  }
+
+  blockquote {
+    padding: 0 1rem;
+    margin-left: 0;
+    color: v.$blockquote-text-color;
+    border-left: 0.3rem solid v.$border-color;
+
+    > :first-child {
+      margin-top: 0;
+    }
+
+    > :last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  // Tables
+  table {
+    display: block;
+    width: 100%;
+    overflow: auto;
+    border: 1px solid v.$table-border-color;
+    word-break: keep-all;
+    -webkit-overflow-scrolling: touch;
+
+    th {
+      font-weight: bold;
+    }
+
+    th,
+    td {
+      padding: 0.5rem 1rem;
+      border: 1px solid v.$table-border-color;
+    }
+  }
+
+  // Other elements
+  img {
+    max-width: 100%;
+  }
+
+  figcaption {
+    text-align: center;
+  }
+
+  hr {
+    height: 2px;
+    padding: 0;
+    margin: 1rem 0;
+    background-color: v.$hr-border-color;
+    border: 0;
+  }
+
+  kbd {
+    background-color: v.$code-bg-color;
+    border: 1px solid v.$border-color;
+    border-bottom-color: v.$border-color;
+    color: v.$code-text-color;
+    border-radius: 3px;
+    color: v.$code-text-color;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 10px;
+    padding: 3px 5px;
+    vertical-align: middle;
+  }
+  
+}
+
+.main-content {
+  @extend %content-shared;
+
+  @include large {
+    padding: .75rem 4rem 1rem 4rem ;
+    margin: 0 auto;
+  }
+
+  @include medium {
+    padding: 2rem 2rem;
+  }
+
+  @include small {
+    padding: 1rem 2rem;
+  }
+}
+
+.main-content-home {
+  @extend %content-shared;
+
+  @include large {
+    padding: 2rem 6rem;
+    margin: 0 auto;
+  }
+
+  @include medium {
+    padding: 2rem 4rem;
+  }
+
+  @include small {
+    padding: 2rem 1rem;
+  }
+
+  p {
+    margin-left: 10%;
+  }
+}
+
+// =============================
+// Components
+// =============================
+.btn {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: v.$theme-color;
+  background-color: v.$bg-color;
+  border: 1px solid v.$border-color;
+  border-radius: 0.3rem;
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+
+  &:hover {
+    color: v.$theme-color;
+    text-decoration: none;
+    color: v.$link-hover-color;
+    border-color: v.$theme-color;
+  }
+
+  +.btn {
+    margin-left: 1rem;
+  }
+
+  @include large {
+    padding: 0.75rem 1rem;
+  }
+
+  @include medium {
+    padding: 0.6rem 0.9rem;
+    font-size: 0.9rem;
+  }
+
+  @include small {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 0.9rem;
+
+    +.btn {
+      margin-top: 1rem;
+      margin-left: 0;
+    }
+  }
+}
+
+.search-container {
+  margin: 1em 0;
+  position: relative;
+
+  input {
+    width: 100%;
+    max-width: 500px;
+    padding: 0.3em 0;
+    font-family: v.$font-family-mono;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    color: v.$text-color;
+    border-bottom: 1px solid v.$border-color;
+    transition: all 0.2s ease;
+
+    &::placeholder {
+      color: v.$placeholder-color;
+    }
+
+    &:focus {
+      outline: none;
+      border-bottom: 2px solid v.$theme-color;
+    }
+
+    &:hover {
+      border-bottom-color: v.$theme-color;
+    }
+  }
+}
+
+.tag-container {
+  margin: 1em 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.2em;
+}
+
+.tag-button {
+  background: transparent;
+  border: none;
+  color: v.$theme-color;
+  padding: 0.3em;
+  font-family: v.$font-family-mono;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: v.$theme-color;
+    opacity: 0.3;
+    transition: opacity 0.2s ease;
+  }
+
+  &:hover::after {
+    opacity: 1;
+  }
+
+  &.active {
+    color: v.$theme-color;
+    font-weight: 600;
+
+    &::after {
+      opacity: 1;
+      height: 2px;
+    }
+  }
+}
+
+.posts-container {
+  .post-preview {
+    margin: 2em 0;
+    padding-bottom: 1em;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    h2 {
+      margin: 0;
+
+      .post-date {
+        color: v.$text-color;
+        font-size: 0.8em;
+        margin-right: 1em;
+      }
+    }
+  }
+}
+
+.post-tags {
+  margin: 0.5em 0;
+
+  .tag {
+    color: v.$theme-color;
+    padding: 0.2em 0.3em;
+    margin-right: 0.8em;
+    font-size: 0.8em;
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background-color: v.$theme-color;
+      opacity: 0.3;
+    }
+  }
+}
+
+.toc {
+  background: rgba(v.$theme-color, 0.05);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 4px;
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: v.$theme-color;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+
+    li {
+      margin: 0.5rem 0;
+
+      a {
+        color: v.$body-text-color;
+        text-decoration: none;
+        transition: color 0.2s ease;
+
+        &:hover {
+          color: v.$theme-color;
+        }
+      }
+
+      ul {
+        padding-left: 1.5rem;
+        margin: 0;
+
+        li {
+          margin: 0.5rem 0;
+
+          &:first-child {
+            margin-top: 0.5rem;
+          }
+
+          &:last-child {
+            margin-bottom: 0.5rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.section-content {
+  margin-left: 10%;
+  margin-bottom: 1rem;
+}
+
+.news-header {
+  color: v.$theme-color;
+  margin-left: 2em
+}
+
+.news {
+  margin-left: 10%;
+}
+
+.sub-header {
+  color: v.$theme-color;
+  margin-left: 2em;
+}
+
+.social-links {
+  margin-left: 10%;
+  color: v.$theme-color-secondary;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .link-group {
+    display: inline-block;
+    margin-right: 1rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.fun-facts {
+  margin-left: 10%;
+
+  .fact-item {
+    margin-bottom: 0.5rem;
+
+    // Style for the numbered brackets
+    &::before {
+      color: v.$theme-color;
+    }
+
+    // Last item (nullptr) styling
+    &:last-child {
+      margin-left: 0%;
+      color: v.$theme-color;
+    }
+  }
+
+  .arrow {
+    margin-left: .7rem;
+    color: v.$theme-color;
+    padding: 0.3 rem 0;
+  }
+}
+
+#scrollToTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: v.$theme-color;
+  color: v.$bg-color;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: v.$font-size-base;
+  width: 50px;
+  height: 50px;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: v.$theme-color-secondary;
+  }
+}
+
+// =============================
+// Footer
+// =============================
+.site-footer {
+  padding-top: 2rem;
+  margin-top: 2rem;
+  border-top: solid 1px v.$hr-border-color;
+
+  @include large {
+    font-size: 1rem;
+  }
+
+  @include medium {
+    font-size: 1rem;
+  }
+
+  @include small {
+    font-size: 0.9rem;
+  }
+}
+
+.site-footer-owner {
+  display: block;
+  font-weight: bold;
+}
+
+.site-footer-credits {
+  color: v.$blockquote-text-color;
+}
+
+// =============================
+// Utility Classes
+// =============================
+.hidden {
+  display: none;
+}
+
+.back-link {
+  color: v.$theme-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.highlight {
+  .hll {
+    background-color: v.$code-bg-color;
+  }
+
+  // Comments
+  .c,
+  .cm,
+  .c1,
+  .cs {
+    color: v.$syntax-comment;
+    font-style: italic;
+  }
+
+  // Errors and Warnings
+  .err {
+    color: v.$syntax-error;
+    background-color: v.$code-bg-color;
+  }
+
+  // Keywords
+  .k,
+  .kc,
+  .kd,
+  .kn,
+  .kr,
+  .kp,
+  .ow {
+    color: v.$syntax-keyword;
+    font-weight: bold;
+  }
+
+  // Operators and Punctuation
+  .o {
+    color: v.$syntax-operator;
+  }
+
+  // Functions and Classes
+  .nf {
+    color: v.$syntax-function;
+  }
+
+  .nc {
+    color: v.$syntax-class;
+    font-weight: bold;
+  }
+
+  // Variables
+  .nv,
+  .vc,
+  .vg,
+  .vi {
+    color: v.$syntax-variable;
+  }
+
+  // Strings
+  .s,
+  .sb,
+  .sc,
+  .s2,
+  .sh,
+  .s1,
+  .sx {
+    color: v.$syntax-string;
+  }
+
+  // Numbers
+  .m,
+  .mf,
+  .mh,
+  .mi,
+  .mo,
+  .il {
+    color: v.$syntax-number;
+  }
+
+  // Attributes and Decorators
+  .na,
+  .nd {
+    color: v.$syntax-attribute;
+  }
+
+  // Built-ins
+  .nb,
+  .bp {
+    color: v.$syntax-builtin;
+  }
+
+  // Namespace
+  .nn {
+    color: v.$syntax-namespace;
+    font-weight: bold;
+  }
+
+  // Constants
+  .no {
+    color: v.$syntax-constant;
+  }
+
+  // Deleted/Inserted
+  .gd {
+    color: v.$syntax-deleted;
+  }
+
+  .gi {
+    color: v.$syntax-inserted;
+  }
+
+  // Other styles
+  .w {
+    color: v.$text-color;
+  }
+
+  .gs {
+    font-weight: bold;
+  }
+
+  .ge {
+    font-style: italic;
+  }
+}

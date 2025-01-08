@@ -2,9 +2,11 @@
 layout: post
 title: What's on my Mac?
 excerpt_separator: <!--more-->
+toc: true
+tags: [tech, setup]
 ---
 
-So people have been asking me to write this because I have an entire workflow system thing set up that I can’t really live without. My setup isn’t necessarily complicated or advanced but I will attempt to keep this updated. So here you go Harsh 😊
+So people have been asking me to write this because I have an entire workflow system thing set up that I can’t really live without. My setup isn’t necessarily complicated or advanced but I will attempt to keep this updated. So here you go Harsh 😊<!--more-->
 
 > Updated as of Oct 2024
 >

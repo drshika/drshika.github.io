@@ -1,23 +1,61 @@
+@use "sass:color";
+
 // Breakpoints
 $large-breakpoint: 64em !default;
 $medium-breakpoint: 42em !default;
 
+// Spacing
+$indent-level-1: 2em;
+$indent-level-2: 10%;
+
+// Typography
+$font-family-mono: "Nitti", "Source Code Pro", "Inconsolata", monospace;
+$font-size-base: 14px;
+$line-height-base: 1.4;
+
+// Theme colors (from skin)
+$theme-color: var(--theme-color) !default;
+$theme-color-secondary: var(--theme-color-secondary) !default;
+$bg-color: var(--bg-color) !default;
+$text-color: var(--text-color) !default;
+$blockquote-text-color: var(--blockquote-text-color) !default;
+$code-bg-color: var(--code-bg-color) !default;
+$border-color: var(--border-color) !default;
+$link-hover-color: var(--link-hover-color) !default;
+
 // Headers
-$header-heading-color: rgb(94, 0, 170) !default;
-$header-bg-color: #9366B3 !default;
-// $header-bg-color-secondary: #155799 !default;
+$header-heading-color: var(--theme-color);
+$header-bg-color: var(--bg-color);
 
 // Text
-$section-headings-color: #9366B3 !default;
-$body-text-color: #66635F !default;
-$body-link-color: #6824de77 !default;
-$blockquote-text-color: #838280 !default;
+$section-headings-color: var(--theme-color-secondary);
+$body-text-color: var(--text-color);
+$body-link-color: var(--theme-color);
+$placeholder-color: var(--placeholder-color) !default;
+
+// Link colors
+$link-color: var(--link-hover-color);
 
 // Code
-$code-bg-color: #f6e8ff8c !default;
-$code-text-color: #567482 !default;
+$code-text-color: var(--text-color);
 
 // Borders
-$border-color: #e7dcf0 !default;
-$table-border-color: #e9ebec !default;
-$hr-border-color: #eff0f1 !default;
+$table-border-color: var(--border-color);
+$hr-border-color: var(--border-color);
+
+// Syntax highlighting
+$syntax-comment: var(--syntax-comment) !default;
+$syntax-error: var(--syntax-error) !default;
+$syntax-keyword: var(--syntax-keyword) !default;
+$syntax-operator: var(--syntax-operator) !default;
+$syntax-function: var(--syntax-function) !default;
+$syntax-variable: var(--syntax-variable) !default;
+$syntax-string: var(--syntax-string) !default;
+$syntax-number: var(--syntax-number) !default;
+$syntax-attribute: var(--syntax-attribute) !default;
+$syntax-class: var(--syntax-class) !default;
+$syntax-builtin: var(--syntax-builtin) !default;
+$syntax-namespace: var(--syntax-namespace) !default;
+$syntax-constant: var(--syntax-constant) !default;
+$syntax-deleted: var(--syntax-deleted) !default;
+$syntax-inserted: var(--syntax-inserted) !default;

@@ -1,129 +1,119 @@
 ---
 layout: home
-title: 
+title: Drshika Asher
 description: Drshika Asher's Personal Site
 ---
-<style>
-   .purple-text {
-    color: #9366B3!important;
-    display: inline;
-  }
-  .subhead {
-     margin-left: 2em;
-  }
-</style>
 ## NAME
 
 Drshika Asher *(she/they)*
+{: .section-content}
 
-<p>
-<div style="margin-left: 10%">
-<div class="purple-text">
-[<a href="assets/css/files/Asher_Drshika_resume.pdf">Resume</a>][<a href="assets/css/files/asher_drshika_cv.pdf">CV</a>]
-</div>
-<br/>
-<div class="purple-text">[LinkedIn:<a href="https://www.linkedin.com/in/drshikaasher/">@drshikaasher</a>][Twitter:<a href="https://twitter.com/drshika_">@drshika_</a>][Github:<a href="https://github.com/drshika">@drshika</a>]</div>
-<br/>
-<div class="purple-text">[drshika2(at)illinois(dot)edu]</div> 
-</div>
-</p>
+{% include social_links.html %}
+{: .section-content}
 
 ## SYNOPSIS
-**Education:** Computer Science [Expected-2024]
 
 **Industry:**
+NCSA [R-SWE][2024]   
 MongoDB [SWE Intern][2023]   
 Uber [SWE Intern][2023]   
 Cargill [SWE Intern][2022]   
 EnterpriseWorks [Front-End Intern][2021]  
+{: .section-content}
+
+**Education:** UIUC, B.S. Computer Science [2024]
+{: .section-content}
 
 **Research:**  
 Microsoft Research Redmond [Undergrad Research Intern][2022]   
 Social CompUting LaBoratory (SCUBA) [Research Intern][2021][2022]    
 Human Computer Interaction Lab [Research Intern][2022]    
+{: .section-content}
 
 ## DESCRIPTION 
 
-My name is Drshika. I’m a 16th grade student at the University of Illinois Urbana-Champaign studying Computer Science. 
+Hey, I'm Drshika! I recently graduated from UIUC and moved to New York. Currently, I'm a Research Software Engineer at the National Center for Supercomputing Applications. I was born and raised in the suburbs of Chicago, Illinois and the city holds such a special place in my heart that I have a [Spotify playlist](https://open.spotify.com/playlist/0GOlx5tIU2eruC47yMRmrO?si=35f55188f7744fd9) dedicated to it. 
+{: .section-content}
 
-I'm actively looking for full-time roles in full stack and backend software engineering and would love to chat if your organization is recruiting for roles related to Virtual/Augmented Reality, Computer Systems, Accessibilty or Finance!  
-
-I was involved with a lot of undergraduate research in HCI and SCuBa (Social CompUting laBorAtory) through the Clare Boothe Luce and CS STARS Research Fellowship. 
-
-My studies and research are supported by scholarships from JP Morgan Chase, Bank of America, Cargill, Clare Boothe Luce Foundation and others. 
-
-I love to help others and was a head course assistant for CS225 (Data Structures) and CS196 (honors computer science). 
-
-In my free time, I enjoy singing hindustani classical music, biking on local trails, and attempting to bake various deserts. 
+During college, I was involved with a lot of undergraduate research, head TA-ships (or as the CS department at UIUC calls them, CA-ships) and club leadership. My studies and research were supported by scholarships from JP Morgan Chase, Bank of America, Cargill, Clare Boothe Luce Foundation and others. To add some spice in life, I spent my senior year in college interning for [Japan House](https://japanhouse.illinois.edu/) where I whisked countless bowls of matcha and learned to dress in Yukata!
+{: .section-content}
+ 
+When I'm not coding, you can find me playing trivia with my friends, practicing hindustani classical music, teaching myself to embroider or curating hyper-specific playlists on Spotify. 
+{: .section-content}
 
 ## [NEWS](#news)
 
-<div class="subhead purple-text">[September, 2023]</div>Thank you to Rewriting the Code for the generous scholarship to attend Grace Hopper 2023! I'm sooo excited to meet my fellow peer leaders and get inspired by leaders in industry and academia :)
+[August, 2024]
+{: .news-header}
+I graduated and moved to NYC! Here's to new beginnings :) 
+{: .news} 
 
-<div class="subhead purple-text">[September, 2022]</div> Thanks to Bank of America and Rewriting the Code for providing me with a scholarship to attend the Grace Hopper Conference in Orlando, Florida!
-
-<div class="subhead purple-text">[August, 2022]</div> I'm super excited to be one of 30 RTC Rising Student Leaders for this academic year! I'll be the leader for the Gaming Interest group and will be hosting a lot of cool sessions and workshops with them.
-
-<div class="subhead purple-text">[May, 2022]</div> I'll be travelling to Minneapolis this summer! I was selected for the 2022 Cargill Global Scholars Program. Learn more [here](https://www.cargillglobalscholars.com/)
+[May, 2024] 
+{: .news-header} 
+I'm super honored to be recognized by the UIUC CS department for my research and scholarship. Learn more [here](https://siebelschool.illinois.edu/news/2024-celeb-excel)
+{: .news} 
 
 [-> Read older news](/news-archive)
 
 ## RESEARCH
 
-   <div class="subhead purple-text"><b>OVER-TRUST IN AUTOMATED SYSTEMS,</b> UIUC HCI LAB [2022]</div>
+**OVER-TRUST IN AUTOMATED SYSTEMS, UIUC HCI LAB** [2022]
+{: .sub-header}
 
 *Mentors: Prof. Alex Kirlik and Sebastian Rodriguez*. I worked with the UIUC Human-Computer Interaction lab on a project about embodied agents in the context of trust, performance, and embodiment in a physical VR task. I contributed ideas in terms of shaping experimental design, researched and analyzed papers to the review of literature and helped design the VR game itself by programming in C# and Unity. I also dry ran the experiment with peers until it was ready to execute at a larger scale. 
+{: .section-content}
 
-   <div class="subhead purple-text"><b>CLASSIFYING AUDIO-SOCIAL PLATFORMS,</b>SCuBa LAB [2021]</div>
+**CLASSIFYING AUDIO-SOCIAL PLATFORMS,SCuBa LAB** [2021]
+{: .sub-header}
 
 *Mentors: Prof. Eshwar Chandrashekaran and Tanvi Bajpai*. I investigated the structure and norms of the voice based platform Clubhouse and documented the different forms of abuse on voice based platforms like Twitter Spaces, Discord Stages as well as Spotify Greenroom. We analyzed these trends using Natural Language Processing techniques like LDA and SAGE. See my talk from the virtual REU poster session [here](https://cs.illinois.edu/research/undergraduate-research/summer-research-experience-undergraduates/participants/drshika-asher)
+{: .section-content}
 
 **PUBLICATIONS**   
 Validating trust in human-robot interaction through virtual reality: Comparing embodied and "behind-the-screen" interactions   
-Sebastian Rodriguez, Harsh Deep, **Drshika Asher**, James Schaffer, Alex Kirlik, USA (accepted, AHFE 2023) [axriv link to come!]
+Sebastian Rodriguez, Harsh Deep, **Drshika Asher**, James Schaffer, Alex Kirlik, USA (accepted, AHFE 2023) \[[arxiv](https://openaccess.cms-conferences.org/publications/book/978-1-958651-93-3/article/978-1-958651-93-3_9)\]
+{: .section-content}
 
 Harmonizing the Cacophony: An Affordance-aware Framework of Audio-Based Social Platform Moderation   
 Tanvi Bajpai, **Drshika Asher**, Anwesa Goswami, and Eshwar Chandrasekharan
 Preprint, July 2021. (accepted, ACM CSCW 2022) [[arXiv](https://arxiv.org/abs/2107.09008)]
+{: .section-content}
 
 ## INDUSTRY
 
-   <div class="subhead purple-text"><b>MONGODB</b>, Software Engineering Intern [2023]</div>
+**MONGODB**, Software Engineering Intern [2023]
+{: .sub-header}
 
 I was on the Database Experience - Rust Driver Team where I worked on an API endpoint for the open source MongoDB rust driver available here: [https://github.com/mongodb/mongo-rust-driver](https://github.com/mongodb/mongo-rust-driver). I also updated 10 tests, fixed 3 bugs and updated pages of documentation across the rust-driver and bson-rust repository. 
-   
-   <div class="subhead purple-text"><b>UBER</b>, Software Engineering Intern [2023]</div>
+{: .section-content}
+
+**UBER**, Software Engineering Intern [2023]
+{: .sub-header}
 
 I was on the Membership Platform Team where I wrote a high-performance Golang REST API endpoint that serves 60k queries per second (QPS). I was able to decrease latency by 36.2% for three flows. 
+{: .section-content}
 
-   <div class="subhead purple-text"><b>CARGILL</b>, Software Engineering Intern [2022]</div>
+**CARGILL**, Software Engineering Intern [2022]
+{: .sub-header}
 
 I was a software engineering intern with the Cargill Innovation lab where I collaborated with international stakeholders to build a unified React component library.
+{: .section-content}
 
-   <div class="subhead purple-text"><b>ENTERPRISEWORKS</b>, Front-End Developer [2021]</div>
+**ENTERPRISEWORKS**, Front-End Developer [2021]
+{: .sub-header}
 
 Over the summer of 2021, I had my first internship with EnterpriseWorks, a startup incubator. I build over 20 pages of websites for both internal and external clients and got fluent with HTML, CSS, JS and PHP! This internship was an amazing learning experience for me and I really enjoyed working with the team.
-
-## PROJECTS
-
-   <div class="subhead purple-text"><b>TANPURA APP</b> --github_link=<a href="https://github.com/drshika/tanpura-app">https://github.com/drshika/tanpura-app</a></div>
-
-I developed a virtual Tanpura Simulator with 7 keys using Cinder’s Audio API Library. Used C++, Cinder, and CMake.
-
-   <div class="subhead purple-text"><b>HANDWRITING CLASSIFIER</b></div>
-
-I created a model using the Naive-Bayes Classifier algorithm to predict the number that a user draws on a sketchpad. I trained the model with 5000 handwritings, and tests the model with 1000 handwritings with an accuracy of 98%. Since this was a school project, I cannot link the code. Used C++, Cinder, and CMake.
-
-   <div class="subhead purple-text"><b>LCTRS</b> --github_link=<a href="https://github.com/CS196Illinois/Group6">https://github.com/CS196Illinois/Group6</a></div>
-
-I prototyped a tool to summarize lecture transcripts to assist students in online learning. We fine-tuned the T-5 Small model to summarize conversational academic content. I designed and built a front-end user interface with Flask and Google OAuth for users to store their past summarized transcripts.
+{: .section-content}
 
 ## SERVICE, LEADERSHIP & TEACHING
 
-<div><body><b>teaching</b> <i>(* == admin/head course assistant (CA))</i></body></div>   
-<div class="subhead purple-text"><b>CS225: DATA STRUCTURES</b>[SP2022][FA2022*]</div>
+**teaching** (* == admin/head course assistant (CA))
+
+**CS225: DATA STRUCTURES**[SP2022][FA2022*]
+{: .sub-header}
 
 Data Structures and Algorithms in C++. With G. Carl Evans and Brad Solomon. 
+{: .section-content}
 
 [0] [Exam 1 Review Guide](https://drshika.notion.site/Exam-1-Review-8222916da8114aceafafcd25db66dccc)   
  &nbsp;↓    
@@ -134,48 +124,52 @@ Data Structures and Algorithms in C++. With G. Carl Evans and Brad Solomon.
 [3] [(wip) Class Texbook](https://drshika.github.io/cs225-coursebook/)   
  &nbsp;↓  
 nullptr 
+{: .section-content}
 
-   <div class="subhead purple-text"><b>CS196: COMPUTER SCIENCE HONOR</b> [SP2021*][FA2021]</div>
+**CS196: COMPUTER SCIENCE HONORS** [SP2021*][FA2021]
+{: .sub-header}
 
 CS 196 is a student-run freshman honors section for ‘Intro to Computer Science’ at UIUC. Was Project Manager for two teams using Scrum to help build and ship two Kotlin Apps.
+{: .section-content}
 
 [0] [Kotlin Slides](https://docs.google.com/presentation/d/1efdbPEUBnE5P_QJIuWO4aWLMJm2U5TwSn668uMNahi8/edit?usp=sharing)   
  &nbsp;   ↓   
 nullptr 
+{: .section-content}
 
-<div><body><b>service</b></body></div>
+**service**
 
-   <div class="subhead purple-text"><b>NCWIT ASPIRATIONS IN COMPUTING REGIONAL ORGANIZER [2022][2023]</b></div>
+**NCWIT ASPIRATIONS IN COMPUTING REGIONAL ORGANIZER** [2022][2023]
+{: .sub-header}
 
 Reviewed applications for the NCWIT AiC award and lead the organization of the AiC award Ceremony for the Central Illinois Affiliate.
+{: .section-content}
 
-   <div class="subhead purple-text"><b>ILLINOIS CS STARS RESEARCH FELLOW [2021-22]</b></div>
+**ILLINOIS CS STARS RESEARCH FELLOW** [2021-22]
+{: .sub-header}
 
 Worked on recruiting, mentorship and cohort-building activities like Hour of Code, [ChicTech](https://cs.illinois.edu/news/chictech-created-an-encouraging-computing-environment-for-high-school-students), [Trick or Research](https://cs.illinois.edu/news/trick-or-research-event-broke-down-barriers-to-undergraduates-in-research) and Admitted Women’s outreach.
+{: .section-content}
 
-<div><body><b>leadership</b></body></div>
+**leadership**
 
-   <div class="subhead purple-text"><b><a href="https://acm.illinois.edu/">ACM @ UIUC</a></b>, Corporate Chair [2022], Social Media Chair [2021]</div>
+**[ACM @ UIUC](https://acm.illinois.edu/)**, Corporate Chair [2022], Social Media Chair [2021]
+{: .sub-header}
 
 As the Corporate Chair for Association of Computing Machinery at Illinois, I mentored a lead a team of 6 to raise $10,000+ in funding for our club during COVID-19. Additionally, I served as a mentor this summer to incoming freshman.
+{: .section-content}
 
-   <div class="subhead purple-text"><b><a href="https://www.reflectionsprojections.org/">Reflections | Projections</a></b>, Content Chair [2021]</div>
+**[Reflections \| Projections](https://www.reflectionsprojections.org/)**, Content Chair [2021]
+{: .sub-header}
 
 Was a Content Chair for Reflections \| Projections, a hybrid conference created to introduce students to careers in computing. Our team of 6 brought in a total of 11 speakers across 9 speaking events for students to hear about how they can leverage computing for good across a variety of fields ranging from ethical artificial intelligence to project management. Keynote: D. Sivakumar ex head of AI @ Google
+{: .section-content}
 
 ## **EXTRAS**
 
-[0] I’m in the top .01% of listeners for Chloe X Halle   
- &nbsp;↓   
-[1] I like to build mechanical keyboards! I use the rk68 with gat milky yellows   
- &nbsp;↓   
-[2] My favorite foods are lychee and basil pesto pasta   
- &nbsp;↓   
-[3] My favorite shows are Ted Lasso, The Good Place and Parks and Recreation :)   
- &nbsp;↓   
-[4] Here’s a picture of me!    
- &nbsp;↓   
-nullptr
+{% include fun_facts.html %}
 
-![](assets/css/images/me.png)
+![](assets/images/me.png)
+{: .section-content}
 <figcaption alt="Drshika is gazing up and smiling at the sun shining through the trees">this is me looking at well documented code ;)</figcaption>
+{: .section-content}

@@ -2,6 +2,8 @@
 layout: post
 title: Make a Resume in LaTeX!
 excerpt_separator: <!--more-->
+toc: true
+tags: [tutorial , LaTeX , career, interview-prep]
 ---
 
 ## Prerequisites
@@ -20,7 +22,7 @@ LaTeX is an excellent solution to all of these problems! LaTeX is used as a prof
 
 This tutorial will teach you how to make this resume [[overleaf link here](https://www.overleaf.com/read/xwtrjgzzhrmr)]. You will learn about creating sections and subsections, overwriting commands, and making custom environments in LaTeX. You can clone the project on Overleaf or follow the instructions in this guide from a blank file.
 
-![demo resume](/assets/css/latex_resume/Screen_Shot_2022-03-03_at_10.49.41_PM.png)
+![demo resume](/assets/latex_resume/Screen_Shot_2022-03-03_at_10.49.41_PM.png)
 
 ## Vocabulary
 
@@ -61,7 +63,7 @@ LaTeX is a collection of helpful TeX macros that run some TeX commands to format
 
 You can also download some fun packages: one for making sheet music, sudoku creators/solvers, coffee-stain makers, and so much more.
 
-![flow diagram](/assets/css/latex_resume/Screen_Shot_2022-02-01_at_3.13.15_PM.png)
+![flow diagram](/assets/latex_resume/Screen_Shot_2022-02-01_at_3.13.15_PM.png)
 
 ## Setup
 
@@ -73,15 +75,15 @@ If you choose to use Overleaf, here are the steps you must follow.
 
 1. Navigate to the ‘Projects’ page
 
-   ![Projects page](/assets/css/latex_resume/Screen_Shot_2022-02-04_at_12.06.15_AM.png)
+   ![Projects page](/assets/latex_resume/Screen_Shot_2022-02-04_at_12.06.15_AM.png)
 
 2. Click on the ‘Blank Project’ option under ‘New Project’
 
-   ![Blank Project Button](/assets/css/latex_resume/Screen_Shot_2022-02-04_at_12.09.47_AM.png)
+   ![Blank Project Button](/assets/latex_resume/Screen_Shot_2022-02-04_at_12.09.47_AM.png)
 
 3. Hit `Recompile` to render the project in the pane to the right. Done! Your project should look something like this.
 
-   ![Recompile Button](/assets/css/latex_resume/Untitled.png)
+   ![Recompile Button](/assets/latex_resume/Untitled.png)
 
 ## Step 1: Add your Content
 
@@ -107,7 +109,7 @@ You don’t need to worry about what you have in the title field since you will 
 
 Hit the `Recompile` button to render your changes. You must do this to update the preview any time you have made changes to the document.
 
-![Here’s what that looks like](/assets/css/latex_resume/Screen_Shot_2022-02-04_at_2.15.28_AM.png)
+![Here’s what that looks like](/assets/latex_resume/Screen_Shot_2022-02-04_at_2.15.28_AM.png)
 
 Here’s what that looks like
 
@@ -186,7 +188,7 @@ Once you’re satisfied with everything here, you can move on to the next step, 
 
 Your code should render like this:
 
-![Untitled](/assets/css/latex_resume/Untitled_1.png)
+![Untitled](/assets/latex_resume/Untitled_1.png)
 
 ## Step 2: Defining Sections and Styling
 
@@ -209,7 +211,7 @@ The final code snippets look like this:
     [\titlerule] %yellow = formatting below the section heading
 ```
 
-![A diagram explaining what each of the parameters in the \titleformat{} do.](/assets/css/latex_resume/Untitled_drawing.png)
+![A diagram explaining what each of the parameters in the \titleformat{} do.](/assets/latex_resume/Untitled_drawing.png)
 *A diagram explaining what each of the parameters in the \titleformat{} do.*
 
 Now apply the same styling to the `subsection` and `subsubsection` titles. It would make logical sense to make each sub heading a size smaller. Change the size of the `subsection` to be large using the `\Large` macro and bold it using `\bfseries`. Bold the `subsubsection` with `\bfseries`. Here’s what the final code snippets look like.
@@ -340,7 +342,7 @@ To summarize, here’s what you just added:
 
 And here’s our progress so far:
 
-![This on it’s own isn’t a bad resume... but you can make it better!](/assets/css/latex_resume/Screen_Shot_2022-02-04_at_2.32.52_AM.png)
+![This on it’s own isn’t a bad resume... but you can make it better!](/assets/latex_resume/Screen_Shot_2022-02-04_at_2.32.52_AM.png)
 
 This on it’s own isn’t a bad resume... but you can make it better!
 
@@ -378,7 +380,7 @@ Then you can call our environment in the document to see how it renders! Use the
 
 Here’s a visual overview of what you just did:
 
-![Untitled](/assets/css/latex_resume/Untitled_2.png)
+![Untitled](/assets/latex_resume/Untitled_2.png)
 
 You first created the centered environment [red box], then the tabular environment [yellow box], and finally, our text is in the center [blue box].
 
@@ -501,7 +503,7 @@ Now that you have finally finished defining your environment, you can start usin
 
 Result:
 
-![Screen Shot 2022-02-04 at 1.29.50 AM.png](/assets/css/latex_resume/Screen_Shot_2022-02-04_at_1.29.50_AM.png)
+![Screen Shot 2022-02-04 at 1.29.50 AM.png](/assets/latex_resume/Screen_Shot_2022-02-04_at_1.29.50_AM.png)
 
 ## Step 4: Macros
 
@@ -532,7 +534,7 @@ Now to use this in our code, you can type out the macro `\uiuc` wherever you wan
 
 Here’s an example of the Macros being used in the Education subsection.
 
-![It looks pretty much the same in the preview, but it’s just so much quicker for you to type now!](/assets/css/latex_resume/Screen_Shot_2022-02-04_at_2.34.47_AM.png)
+![It looks pretty much the same in the preview, but it’s just so much quicker for you to type now!](/assets/latex_resume/Screen_Shot_2022-02-04_at_2.34.47_AM.png)
 
 It looks pretty much the same in the preview, but it’s just so much quicker for you to type now!
 

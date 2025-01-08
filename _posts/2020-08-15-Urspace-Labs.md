@@ -2,10 +2,11 @@
 layout: post
 title: Life as a Engineering Fellow @ Urspace Labs
 excerpt_separator: <!--more-->
+tags: [product-managment, program, internship]
 ---
 *originally written for my urspace blog on 7.27.20*
-<!--more-->
-It’s been about 7 (whoa!) weeks since I started being an Engineering Fellow with Urspace Labs. Urspace Labs has been an incredible experience so far! I have gotten to meet people from all different parts of this country with varying levels of expertise in different parts of the product development process.
+
+It’s been about 7 (whoa!) weeks since I started being an Engineering Fellow with Urspace Labs. Urspace Labs has been an incredible experience so far! <!--more--> I have gotten to meet people from all different parts of this country with varying levels of expertise in different parts of the product development process.
 
 I’m so thankful for Emily Chung, our mentor, for guiding us through this entire process and working with each one of us closely. She has such a wealth of knowledge about product development and even engineering!
 

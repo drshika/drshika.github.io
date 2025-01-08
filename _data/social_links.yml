@@ -1,0 +1,17 @@
+resume:
+  text: Resume
+  url: /assets/resume.pdf
+cv:
+  text: CV
+  url: /assets/cv.pdf
+social:
+  - name: linkedin
+    text: "@drshikaasher"
+    url: "https://linkedin.com/in/drshikaasher"
+  - name: twitter
+    text: "@drshika_"
+    url: "https://x.com/drshika_"
+  - name: github
+    text: "@drshika"
+    url: "https://github.com/drshika"
+email: "hello(at)drshika(dot)com"

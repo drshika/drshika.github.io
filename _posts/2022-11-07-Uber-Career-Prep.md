@@ -2,6 +2,8 @@
 layout: post
 title: Uber Career Prep Fellows
 excerpt_separator: <!--more-->
+toc: true
+tags: [career, internship, application, interview-prep]
 ---
 This past year, I participated in the Uber Career Prep Fellowship, a seven-month program with five virtual workshops ranging in content from technical interview prep to learning about different careers in computing. In addition, the program has mock interviews and homework assignments to help expand your technical knowledge. I was also paired 1x1 with an Uber Engineer who guided me throughout the program. <!--more--> You'll also have ample opportunities to meet with members of Uber's employee resource groups, who will also be a considerable part of your Success in this one-of-a-kind experience!
 
