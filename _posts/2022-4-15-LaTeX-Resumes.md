@@ -3,6 +3,7 @@ layout: post
 title: Make a Resume in LaTeX!
 excerpt_separator: <!--more-->
 toc: true
+katex: true
 tags: [tutorial, LaTeX, career, interview-prep]
 ---
 
@@ -67,7 +68,7 @@ You can also download some fun packages: one for making sheet music, sudoku crea
 
 ## Setup
 
-I highly recommend following along with this tutorial in Overleaf [[https://www.overleaf.com/project](https://www.overleaf.com/project)] since it allows you to share LaTeX files with other people, and they can make comments on your document to offer feedback. Overleaf works on Chrome/Chromium Browsers/Firefox and mobile devices (like tablets) with most functionality.
+I highly recommend following along with this tutorial in Overleaf [https://www.overleaf.com/project)](https://www.overleaf.com/project) since it allows you to share LaTeX files with other people, and they can make comments on your document to offer feedback. Overleaf works on Chrome/Chromium Browsers/Firefox and mobile devices (like tablets) with most functionality.
 
 I wrote this tutorial using Overleaf. However, if you are more comfortable and familiar with that, you can follow along using any text editor and distribution of your choice. See [https://www.latex-project.org/get/](https://www.latex-project.org/get/) for download links for your operating system.
 
@@ -89,7 +90,7 @@ If you choose to use Overleaf, here are the steps you must follow.
 
 First, let's start by creating an essential document in LaTeX. If you are using Overleaf and followed the setup instructions from above, you should get this:
 
-"`latex
+```latex
 \documentclass{article} 
     \usepackage[utf8]{inputenc}
     \usepackage{titlesec}
@@ -115,7 +116,7 @@ Here's what that looks like
 
 You want to include the following things on your resume: education or the cool projects you have built! Let's add that after our date field. Use the `\section{}` command to make a new section and `\subsection{}` and `\subsubsection{}` for creating subheadings underneath that. Fill these sections in with the information you want under each section. Here's an example of what you should end up with for one section from my demo resume:
 
-"`latex
+```latex
 \section{Skills}
     \subsection{Technical Skills}
  Java, Python, Rust, Haskell
@@ -127,7 +128,7 @@ You want to include the following things on your resume: education or the cool p
 
 Once you're satisfied with everything, you can move on to the next step, styling. Once you've completed the first part, here's what the code looks like.
 
-"`latex
+```latex
 % The stuff above this is the '\usepackage{}' commands
 \begin{document}
 
@@ -200,7 +201,7 @@ Make the text bold and larger using the `\huge` size and the `\bfseries` macro. 
 
 The final code snippets look like this:
 
-"`latex
+```latex
 % The line above this is:
 \usepackage{titlesec}
     \titleformat{\section}
@@ -216,7 +217,7 @@ The final code snippets look like this:
 
 Now apply the same styling to the `subsection` and `subsubsection` titles. It would make logical sense to make each subheading a smaller size. Change the size of the `subsection` to be large using the `\Large` macro and bold it using `\bfseries`. Bold the `subsubsection` with `\bfseries`. Here's what the final code snippets look like.
 
-"`latex
+```latex
 \titleformat{\subsection}{\bfseries\Large}{}{0em}{} 
 \titleformat{\subsubsection}[runin]{\bfseries}{}{0em}{}
 ```
@@ -227,7 +228,7 @@ Optionally, add the `[runin]` modifier to the `subsubsection` category. I used t
 
 Now, let's set the page layout. Since I live in the US, I put the page size as a letter and the margins as 1" since that's standard here. You can change the margins or page size (like A4) based on the standards in your country. To do this, you must use a package called `geometry`, so import it with the `\usepackage{}` command. Then, set the options for page size and margins. Here's what the final code snippet looks like:
 
-"`latex
+```latex
 \usepackage{geometry} % add this where your other package declarations are
 % This can go right below the package declarations
 \geometry{
@@ -247,7 +248,7 @@ Import the `titling` package and use the `\renewcommand` command to override the
 
 Here's what the final code snippet looks like:
 
-"`latex
+```latex
 \usepackage{titling} % add this where your other package declarations are
 
 % This replaces the following ---------
@@ -282,7 +283,7 @@ The hyperlinks currently look boring; you can click on them right now! Let's fix
 
 Here's what the final code snippet should look like:
 
-"`latex
+```latex
 \usepackage{hyperref}
 % This can go right below the package declarations
 \hypersetup{
@@ -295,7 +296,7 @@ Here's what the final code snippet should look like:
 
 To summarize, here's what you just added:
 
-"`latex
+```latex
 \usepackage{titlesec} % Makes a section for the title
 \usepackage{titling} % Allows you to format the title
 \usepackage{geometry} % Allows us to modify page setup
@@ -357,7 +358,7 @@ Now, this is where it starts getting fancy! Environments in LaTeX allow you to s
 1. To define our new environment, use the `\newenvironment{}` command.
  This example creates a centered text box. So I made two more environments inside this boxed environment that center the text:`\begin{center}` and put the text in a box: `\begin{tabular}`.
 
-"`latex
+```latex
 \newenvironment{boxed}
  {\begin{center}
        \begin{tabular}{|p{0.9\textwidth}|}
@@ -372,7 +373,7 @@ Now, this is where it starts getting fancy! Environments in LaTeX allow you to s
 
 Then, you can call our environment in the document to see how it renders! Use the `\begin{boxed}` command to begin the boxed syntax.
 
-"`latex
+```latex
 \begin{boxed}
  This is the text formatted by the boxed environment
 \end{boxed}
@@ -396,7 +397,7 @@ You first created the centered environment [red box], then the tabular environme
 
  To make more parameters optional, use an additional package like [enumitem](http://texdoc.net/pkg/enumitem). Also, see this [stack overflow article](https://tex.stackexchange.com/questions/98387/defining-a-list-environment-with-multiple-optional-arguments) for further reading.
 
-    "`latex
+    ```latex
     \newenvironment{boxed}[1]
      {\begin{center}
      #1\\[1ex]
@@ -412,7 +413,7 @@ You first created the centered environment [red box], then the tabular environme
 
 Then, when you use the 'boxed' environment, the parameter for the title will appear in the center above the box.
 
-    "`latex
+    ```latex
     \begin{boxed}{Title of the Box}
     This is the text formatted by the boxed environment
     \end{boxed}
@@ -426,7 +427,7 @@ First, let's list the attributes in a resume entry. For example, you have the ti
 
 Finally, you need to decide on a name for this environment. I went with `rSubsection` for resume subsection, but you could call it anything if the name is not already used for a standard environment or command. Initialize it using the `\newenvironment` command as detailed above.
 
-"`latex
+```latex
 \newenvironment{rSubsection}[4]{}
 ```
 
@@ -436,7 +437,7 @@ The first two things you need to display are the name and duration of the positi
 
 To display each passed parameter, use the `#1` symbol where 1 is the parameter number (1 = first parameter, 2 = second parameter,  3 = third parameter, and so on). Add some flexible horizontal space between the name and the dates using the `\hfill` macro.
 
-"`latex
+```latex
 {\bf #1} \hfill {#2}
 ```
 
@@ -446,7 +447,7 @@ I'm also choosing to bold the company name using `\bf` to help differentiate it 
 
 Since the location parameter is optional, you need to handle the case that it is not passed using the `\ifthenelse` command. If the compiler does not provide variable `#4`, print variable `#3`. Otherwise, print both `#3` and `#4`. Use `\em` to italicize the position name and location.
 
-"`latex
+```latex
  \ifthenelse{\equal{#3}{}}{}{
       \\
  {\em #3} \hfill {\em #4} 
@@ -464,7 +465,7 @@ If you want the entries on your resume to be in bullet points, you have to creat
 
 Here's the final code snippet (I added some comments for readability):
 
-"`latex
+```latex
 %-----------------------------------------------------------------------------
 % SECTION FORMATTING
 %-----------------------------------------------------------------------------
@@ -493,7 +494,7 @@ Now, add the following packages to the top of your file to allow what you just w
 
 You can start using it now that you have finally finished defining your environment! Here is an example job experience demonstrating how easy it is to input your information. LaTeX takes care of all the heavy formatting work for you.
 
-"`latex
+```latex
 \begin{rSubsection}{Westpac - BT Financials}{November 2018 - Present}{Business Analyst}{Barangaroo, Sydney}
 \item I was responsible for writing user stories for ROA Template, testing user stories, gathering and analysing data. 
 \item I also created a wireframe for a feature that will be added on BT Panorama and designed a landing page for both investors and advisers. 
@@ -511,7 +512,7 @@ Now, let's make some macros to simplify parts of our resume that you are typing 
 
 Initialize a new macro using `\newcommand{}{}` and set the first argument to be the name of your macro. Set the second argument to the expanded text you want the macro to generate. Your final macros should look like this:
 
-"`latex
+```latex
 % section formatting from the previous step goes here
 
 \newcommand{\uiuc}{University of Illinois at Urbana-Champaign}
@@ -523,7 +524,7 @@ Initialize a new macro using `\newcommand{}{}` and set the first argument to be 
 
 To use this in our code, you can type out the macro `\uiuc` wherever you want the compiler to spit out `University of Illinois at Urbana-Champaign`.
 
-"`latex
+```latex
 \section{Education}
     \begin{rSubsection}
  {\uiuc}{August 2020 - May 2024}{BS Computer Science}{\loc}
@@ -550,14 +551,12 @@ I used some sites as inspiration/background information while making this guide.
 - [https://lukesmith.xyz/articles/wanna-learn-latex#tutorials](https://lukesmith.xyz/articles/wanna-learn-latex#tutorials) — used this as a reference for the first part of the guide
 - [https://web.archive.org/web/20151031150425/](https://web.archive.org/web/20151031150425/http://www.toofishes.net/blog/latex-resume-follow-up/)
 - [http://www.toofishes.net/blog/latex-resume-follow-up/](https://web.archive.org/web/20151031150425/http://www.toofishes.net/blog/latex-resume-follow-up/)
-- [https://web.archive.org/web/20151023065248/](https://web.archive.org/web/20151023065248/)
 - [http://www.toofishes.net/blog/why-i-do-my-resume-latex/](http://www.toofishes.net/blog/why-i-do-my-resume-latex/)
-- [�https://tex.stackexchange.com/questions/11955/what-are-the-benefits-of-writing-resumes-in-tex-latex](https://tex.stackexchange.com/questions/11955/what-are-the-benefits-of-writing-resumes-in-tex-latex)
+- [https://tex.stackexchange.com/questions/11955/what-are-the-benefits-of-writing-resumes-in-tex-latex](https://tex.stackexchange.com/questions/11955/what-are-the-benefits-of-writing-resumes-in-tex-latex)
 - Great symbol look-up site: Detexify: [http://detexify.kirelabs.org/](http://detexify.kirelabs.org/)
-- The Comprehensive LATEX Symbol List: [http://amath.colorado.edu/documentation/LaTeX/Symbols.pdf](http://amath.colorado.edu/documentation/LaTeX/Symbols.pdf)
-- The Not So Short Introduction to LATEX 2ε: [ftp://tug.ctan.org/pub/tex-archive/info/symbols/comprehensive/symbols-letter.pdf](ftp://tug.ctan.org/pub/tex-archive/info/symbols/comprehensive/symbols-letter.pdf)
-- TUG: The TEX Users Group: [http://mirrors.med.harvard.edu/ctan/info/lshort/english/lshort.pdf](http://mirrors.med.harvard.edu/ctan/info/lshort/english/lshort.pdf)
+- The Not So Short Introduction to LATEX 2ε: [https://tug.ctan.org/info/lshort/english/lshort.pdf](https://tug.ctan.org/info/lshort/english/lshort.pdf)
+- TUG: The TEX Users Group: [https://tug.org/](https://tug.org/)
 - CTAN: The Comprehensive TEX Archive Network: [http://www.ctan.org/](http://www.ctan.org/)
 - LATEX for the Mac: MacTEX: [http://www.tug.org/mactex/](http://www.tug.org/mactex/)
 - LATEX for the PC: TEXnicCenter and [http://www.texniccenter.org/](http://www.texniccenter.org/)
-- MiKTEXLATEX online: [http://miktex.org/](http://miktex.org/) & [WriteLaTeX1](http://www.writelatex.com/)
+- MiKTEXLATEX online: [http://miktex.org/](http://miktex.org/) & [Overleaf](http://www.writelatex.com/)

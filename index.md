@@ -41,7 +41,7 @@ During college, I was involved with a lot of undergraduate research, head TA-shi
 When I'm not coding, you can find me playing trivia with my friends, practicing hindustani classical music, teaching myself to embroider or curating hyper-specific playlists on Spotify. 
 {: .section-content}
 
-## [NEWS](#news)
+## NEWS
 
 [August, 2024]
 {: .news-header}
@@ -54,6 +54,17 @@ I'm super honored to be recognized by the UIUC CS department for my research and
 {: .news} 
 
 [→ Read older news](/news-archive)
+
+## WRITING
+
+{% for post in site.posts limit:3 %}
+  [{{ post.title }}]({{ post.url }}) {{ post.date | date: "[%B, %Y]" }}
+  {: .news-header} 
+  {{ post.excerpt | strip_html | truncatewords: 30 }}
+  {: .section-content}
+{% endfor %}
+
+[→ View all posts](/writing)
 
 ## RESEARCH
 
@@ -84,28 +95,28 @@ Preprint, July 2021. (accepted, ACM CSCW 2022) [[arXiv](https://arxiv.org/abs/21
 **MONGODB**, Software Engineering Intern [2023]
 {: .sub-header}
 
-I was on the Database Experience - Rust Driver Team where I worked on an API endpoint for the open source MongoDB rust driver available here: [https://github.com/mongodb/mongo-rust-driver](https://github.com/mongodb/mongo-rust-driver). I also updated 10 tests, fixed 3 bugs and updated pages of documentation across the rust-driver and bson-rust repository. 
+Database Experience - Rust Driver Team. See my work [on Github](https://github.com/mongodb/mongo-rust-driver/commits/main/?author=drshika). [Rust]
 {: .section-content}
 
 **UBER**, Software Engineering Intern [2023]
 {: .sub-header}
 
-I was on the Membership Platform Team where I wrote a high-performance Golang REST API endpoint that serves 60k queries per second (QPS). I was able to decrease latency by 36.2% for three flows. 
+Membership Platform Team [Go]
 {: .section-content}
 
 **CARGILL**, Software Engineering Intern [2022]
 {: .sub-header}
 
-I was a software engineering intern with the Cargill Innovation lab where I collaborated with international stakeholders to build a unified React component library.
+Cargill Digital Innovation Lab. [React][TailwindCSS]
 {: .section-content}
 
 **ENTERPRISEWORKS**, Front-End Developer [2021]
 {: .sub-header}
 
-Over the summer of 2021, I had my first internship with EnterpriseWorks, a startup incubator. I build over 20 pages of websites for both internal and external clients and got fluent with HTML, CSS, JS and PHP! This internship was an amazing learning experience for me and I really enjoyed working with the team.
+Research Park. [HTML][CSS][JS][PHP]
 {: .section-content}
 
-## SERVICE, LEADERSHIP & TEACHING
+## SERVICE & TEACHING
 
 **teaching** (* == admin/head course assistant (CA))
 
@@ -127,7 +138,7 @@ nullptr
 **CS196: COMPUTER SCIENCE HONORS** [SP2021*][FA2021]
 {: .sub-header}
 
-CS 196 is a student-run freshman honors section for ‘Intro to Computer Science’ at UIUC. Was Project Manager for two teams using Scrum to help build and ship two Kotlin Apps.
+Project Manager & Head of Social.
 {: .section-content}
 
 [0] [Kotlin Slides](https://docs.google.com/presentation/d/1efdbPEUBnE5P_QJIuWO4aWLMJm2U5TwSn668uMNahi8/edit?usp=sharing)   
@@ -137,30 +148,22 @@ nullptr
 
 **service**
 
-**NCWIT ASPIRATIONS IN COMPUTING REGIONAL ORGANIZER** [2022][2023]
+**Girls Who Code** [2025]
 {: .sub-header}
 
-Reviewed applications for the NCWIT AiC award and lead the organization of the AiC award Ceremony for the Central Illinois Affiliate.
+Setting up a GWC club in Brooklyn NYC in partnership with the Brooklyn Public Library.
+{: .section-content}
+
+**NCWIT ASPIRATIONS IN COMPUTING REGIONAL ORGANIZER** [2022][2023][2024][2025]
+{: .sub-header}
+
+Reviewed applications for the NCWIT AiC award and lead the organization of the AiC award Ceremony for the Central Illinois Affiliate for three years. Currently reviewing applications for the NYC Affiliate.
 {: .section-content}
 
 **ILLINOIS CS STARS RESEARCH FELLOW** [2021-22]
 {: .sub-header}
 
 Worked on recruiting, mentorship and cohort-building activities like Hour of Code, [ChicTech](https://cs.illinois.edu/news/chictech-created-an-encouraging-computing-environment-for-high-school-students), [Trick or Research](https://cs.illinois.edu/news/trick-or-research-event-broke-down-barriers-to-undergraduates-in-research) and Admitted Women’s outreach.
-{: .section-content}
-
-**leadership**
-
-**[ACM @ UIUC](https://acm.illinois.edu/)**, Corporate Chair [2022], Social Media Chair [2021]
-{: .sub-header}
-
-As the Corporate Chair for Association of Computing Machinery at Illinois, I mentored a lead a team of 6 to raise $10,000+ in funding for our club during COVID-19. Additionally, I served as a mentor this summer to incoming freshman.
-{: .section-content}
-
-**[Reflections \| Projections](https://www.reflectionsprojections.org/)**, Content Chair [2021]
-{: .sub-header}
-
-Was a Content Chair for Reflections \| Projections, a hybrid conference created to introduce students to careers in computing. Our team of 6 brought in a total of 11 speakers across 9 speaking events for students to hear about how they can leverage computing for good across a variety of fields ranging from ethical artificial intelligence to project management. Keynote: D. Sivakumar ex head of AI @ Google
 {: .section-content}
 
 ## **EXTRAS**

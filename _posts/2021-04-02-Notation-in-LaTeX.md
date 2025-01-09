@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Writing Indian Music Notation in LaTeX
-KaTeX: True
+katex: true
 excerpt_separator: <!--more-->
 toc: true
 tags: [hindustani-classical-music, LaTeX, music, tutorial]

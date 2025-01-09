@@ -131,18 +131,16 @@ a {
 
   @include large {
     max-width: 64rem;
-    padding: 5rem 6rem 0 4rem;
+    padding: 3rem 6rem 0;  // Increased left padding to match main-content-home
     margin: 0 auto;
   }
 
   @include medium {
-    padding: 3rem 4rem 0 2rem;
-    margin: 0 auto;
+    padding: 2rem 4rem 0.75rem;  // Reduced bottom padding
   }
 
   @include small {
-    padding: 2rem 1rem 0 2rem;
-    margin: 0 auto;
+    padding: 1.5rem 1rem 0.5rem;  // Reduced bottom padding
   }
 }
 
@@ -153,21 +151,14 @@ a {
 
   @include large {
     font-size: 3.25rem;
-    max-width: 64rem;
-    padding: 5rem 6rem 0 0;
-    margin: 0 auto;
   }
 
   @include medium {
     font-size: 2.5rem;
-    padding: 3rem 4rem 0 0;
-    margin: 0 auto;
   }
 
   @include small {
     font-size: 1.75rem;
-    padding: 2rem 1rem 0 0;
-    margin: 0 auto;
   }
 }
 
@@ -316,16 +307,16 @@ a {
   @extend %content-shared;
 
   @include large {
-    padding: .75rem 4rem 1rem 4rem ;
+    padding: 0 6rem 1rem 6rem;  // Keeping large breakpoint as is
     margin: 0 auto;
   }
 
   @include medium {
-    padding: 2rem 2rem;
+    padding: 0 4rem 1.5rem;  // Adjusted padding
   }
 
   @include small {
-    padding: 1rem 2rem;
+    padding: 0 1rem 1rem;  // Adjusted padding
   }
 }
 
@@ -334,7 +325,6 @@ a {
 
   @include large {
     padding: 2rem 6rem;
-    margin: 0 auto;
   }
 
   @include medium {
@@ -343,10 +333,6 @@ a {
 
   @include small {
     padding: 2rem 1rem;
-  }
-
-  p {
-    margin-left: 10%;
   }
 }
 
@@ -601,6 +587,9 @@ a {
   .link-group {
     display: inline-block;
     margin-right: 1rem;
+    a {
+      color: v.$link-hover-color;
+    }
 
     &:last-child {
       margin-right: 0;
