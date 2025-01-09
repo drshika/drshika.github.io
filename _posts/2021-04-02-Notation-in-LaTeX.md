@@ -7,10 +7,10 @@ toc: true
 tags: [hindustani-classical-music, LaTeX, music, tutorial]
 ---
 
-This guide will teach you how to use common macros in LaTeX to beautifully typeset hindustani music notation in Vishnu Digambar and Bhaktande Paddhati. 
+This guide will teach you how to use common macros in LaTeX to beautifully typeset Hindustani music notation in Vishnu Digambar and Bhaktande Paddhati. 
 <!--more-->
 ### Prerequisites
-This guide assumes that you already know how to write LaTeX pretty fluently and that you have somewhere that you can either write KaTeX or LaTeX and compile it. I'm going to include alternatives for syntax that is not supported with both, so you can follow along.
+This guide assumes that you already know how to write LaTeX fluently and that you have somewhere to either write KaTeX or LaTeX and compile it. I will include alternatives for syntax that are unsupported by both so you can follow along.
 
 ### Teentaal Tatkar in LaTeX
 
@@ -18,7 +18,7 @@ $$
 \underset{X}{} \undergroup{ta} \space \undergroup{thei} \space \undergroup{thei}\space \undergroup{tat} \space \vert \space  \underset{2}{} \undergroup{aa} \space \undergroup{thei} \space \undergroup{thei}\space \undergroup{tat} \space  \vert \underset{0}{} \undergroup{ta} \space \undergroup{thei} \space \undergroup{thei}\space \undergroup{tat} \space \vert \space \underset{3}{} \undergroup{aa} \space \undergroup{thei} \space \undergroup{thei}\space \undergroup{tat} \vert
 $$
 
-As you can see here, LaTeX comes quite in handy for quickly formatting and writing music notation in Bhaktande Paddhati. 
+As you can see here, LaTeX is handy for quickly formatting and writing music notation in Bhaktande Paddhati. 
 
 Here's what this looks like in plain ASCII text:
 
@@ -59,9 +59,9 @@ $$
 \vert \underset{X}{} \underset{1}{\undergroup{\text{sa re ga}}} ~ \Vert
 $$
 
-For labeling the beat, make sure the second argument of your `\underset{}` is the `\undergroup{}` group.
+For labeling the beat, ensure the second argument of your `\underset{}` is the `\undergroup{}` group.
 
-*Some other formatting notes*: It might be helpful to the reader to introduce line breaks in your composition. You can use the newline flag `\newline` or you can use two backslashes `\\` to create a new line in LaTeX.
+*Some other formatting notes*: It's helpful to the reader to introduce line breaks in your composition. You can use the newline flag `\newline` or two backslashes `\\` to create a new line in LaTeX.
 
 ```latex
 \\ \text{this is a line. } 
@@ -76,11 +76,11 @@ $$
 \\ \text{or this is another line}
 $$
 
-Also in LaTeX math mode, characters are spaced as if they were part of a single word, regardless of the actual amount of times you space in between. You can use `~` or `\space` to create a space between two expressions.
+Also, in LaTeX math mode, characters are spaced as if they were part of a single word, regardless of the number of times you space in between. You can use `~` or `\space` to create a space between two expressions.
 
-The above is enough to start writing notation for dance compositions, however, for music compositions we require more notation. Thankfully this can also be done with KaTeX/LaTeX.
+The above is enough to start writing notation for dance compositions; however, we require more notation for music compositions. Thankfully, this can also be done with KaTeX/LaTeX.
 
-1. Komal/Flat Notes: use `\underline{}` to designate notes that are flat. Here is Thaat Bhairav Aroh to demonstrate the formatting.
+1. Komal/Flat Notes: use `\underline{}` to designate flat notes. Here is Thaat Bhairav Aroh to demonstrate the formatting.
    ```latex
    \text{Bhairav Aroh: }sa ~ \underline{re} ~ ga ~ ma ~ pa ~ \underline{dha} ~ ni ~ sa
    ```
@@ -94,19 +94,19 @@ The above is enough to start writing notation for dance compositions, however, f
 
    $$\stackrel{\text{'}}{re} \text{or } re'$$
 
-3. Octaves: Use `\stackrel{}{}` to put a dot either above or below the note. Or you can use exponents and subscripts with a carat `^` or underscore `_`. This part is also dependent on what you prefer.
+3. Octaves: Use `\stackrel{}{}` to put a dot above or below the note. Or you can use exponents and subscripts with a carat `^` or underscore `_.` This part is also dependent on what you prefer.
    ```latex
    \text{[Stackrel] } \text{Low Sa: }\stackrel{\text{sa}}{.} ~ \text{High Sa:} \stackrel{.}{\text{sa}}\\ \text{[Sub and Superscripts] } \text{Low Sa: }  ~ \text{sa}_. ~ \text{High sa:} ~ \text{sa}^.
    ```
 
    $$
    \text{[Stackrel] } \text{Low Sa: }\stackrel{\text{sa}}{.} ~ \text{High Sa:} \stackrel{.}{\text{sa}}
-   \\ \text{[Sub and Superscripts] } \text{Low Sa: }  ~ \text{sa}_. ~ \text{High sa:} ~ \text{sa}^.
+   \\ \text{[Sub and Superscripts] } \text{Low Sa: } ~ \text{sa}_. ~ \text{High sa:} ~ \text{sa}^.
    $$
 
 ### Vishnu Digambar Padhati
 
-In Vishnu Digambar, each beat also has additional clarity of whether syllables are 1/2 beat, 1/4 beat and so on so forth. Nesting `\undergroup{}` should help you express this.
+In Vishnu Digambar, each beat has additional clarity on whether the syllables are 1/2 beat, 1/4 beat, and so on. Nesting `\undergroup{}` should help you express this.
 ```latex
 \text{[dogun] }\undergroup{\undergroup{\text{sa re}}}
 \text{ [tigun] }\undergroup{\undergroup{\undergroup{\text{sa re ga}}}}
@@ -121,4 +121,4 @@ $$
 
 ### Feedback
 
-Did you find this guide helpful? Or do you have any corrections or suggestions? Feel free to reach out @ drshika2 (at) illinois (dot) edu.
+Did you find this guide helpful? Do you have any corrections or suggestions? Feel free to comment below.

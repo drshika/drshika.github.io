@@ -14,7 +14,7 @@ Drshika Asher *(she/they)*
 ## SYNOPSIS
 
 **Industry:**
-NCSA [R-SWE][2024]   
+NCSA [Research SWE][2024]   
 MongoDB [SWE Intern][2023]   
 Uber [SWE Intern][2023]   
 Cargill [SWE Intern][2022]   
@@ -35,7 +35,7 @@ Human Computer Interaction Lab [Research Intern][2022]
 Hey, I'm Drshika! I recently graduated from UIUC and moved to New York. Currently, I'm a Research Software Engineer at the National Center for Supercomputing Applications. I was born and raised in the suburbs of Chicago, Illinois and the city holds such a special place in my heart that I have a [Spotify playlist](https://open.spotify.com/playlist/0GOlx5tIU2eruC47yMRmrO?si=35f55188f7744fd9) dedicated to it. 
 {: .section-content}
 
-During college, I was involved with a lot of undergraduate research, head TA-ships (or as the CS department at UIUC calls them, CA-ships) and club leadership. My studies and research were supported by scholarships from JP Morgan Chase, Bank of America, Cargill, Clare Boothe Luce Foundation and others. To add some spice in life, I spent my senior year in college interning for [Japan House](https://japanhouse.illinois.edu/) where I whisked countless bowls of matcha and learned to dress in Yukata!
+During college, I was involved with a lot of undergraduate research, head TA-ships (or as the CS department at UIUC calls them, CA-ships) and club leadership. My studies and research were supported by scholarships from JP Morgan Chase, Bank of America, Cargill, Clare Boothe Luce Foundation and others. To add some spice to my life, I spent my senior year in college interning for [Japan House](https://japanhouse.illinois.edu/) where I whisked countless bowls of matcha and learned to dress in Yukata!
 {: .section-content}
  
 When I'm not coding, you can find me playing trivia with my friends, practicing hindustani classical music, teaching myself to embroider or curating hyper-specific playlists on Spotify. 
@@ -53,7 +53,7 @@ I graduated and moved to NYC! Here's to new beginnings :)
 I'm super honored to be recognized by the UIUC CS department for my research and scholarship. Learn more [here](https://siebelschool.illinois.edu/news/2024-celeb-excel)
 {: .news} 
 
-[-> Read older news](/news-archive)
+[→ Read older news](/news-archive)
 
 ## RESEARCH
 
@@ -120,9 +120,7 @@ Data Structures and Algorithms in C++. With G. Carl Evans and Brad Solomon.
 [1] [Exam 2 Review Guide](https://drshika.notion.site/Exam-2-Review-b9f8acdc9c64470080ce7f42105134d4)   
  &nbsp;↓   
 [2] [Exam 3 Review Guide](https://www.notion.so/drshika/Exam-3-Review-cd5493319d2545d2b099dc10a690ec31)   
- &nbsp;↓   
-[3] [(wip) Class Texbook](https://drshika.github.io/cs225-coursebook/)   
- &nbsp;↓  
+ &nbsp;↓     
 nullptr 
 {: .section-content}
 

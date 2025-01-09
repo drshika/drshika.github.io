@@ -1,8 +1,8 @@
 <div class="social-links">
   <span class="link-group">
-    [<a href="{{ site.data.social_links.resume.url }}">{{ site.data.social_links.resume.text }}</a>][{{ site.data.social_links.email }}] 
+    [<a href="{{ site.data.social_links.resume.url }}" target="_blank">{{ site.data.social_links.resume.text }}</a>][<a href="{{ site.data.social_links.cv.url }}" target="_blank">{{ site.data.social_links.cv.text }}</a>][{{ site.data.social_links.email }}] 
   </span>
   <span class="link-group">
-    {% for link in site.data.social_links.social %}[{{ link.name | capitalize }}:<a href="{{ link.url }}">{{ link.text }}</a>]{% endfor %}
+    {% for link in site.data.social_links.social %}[{{ link.name | capitalize }}:<a href="{{ link.url }}" target="_blank">{{ link.text }}</a>]{% endfor %}
   </span>
 </div>  

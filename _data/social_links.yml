@@ -1,9 +1,9 @@
 resume:
   text: Resume
-  url: /assets/resume.pdf
+  url: assets/files/Asher_Drshika_resume.pdf
 cv:
   text: CV
-  url: /assets/cv.pdf
+  url: assets/files/asher_drshika_cv.pdf
 social:
   - name: linkedin
     text: "@drshikaasher"
