@@ -5,5 +5,5 @@
   <span class="link-group">
     {% for link in site.data.social_links.social %}[{{ link.name | capitalize }}:<a href="{{ link.url }}" target="_blank">{{ link.text }}</a>]{% endfor %}
   </span>
-  <span class="link-group">[{{ site.data.social_links.email }}]</span>
+  <span class="link-group">[email: {{ site.data.social_links.email }}]</span>
 </div>  
