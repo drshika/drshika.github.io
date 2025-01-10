@@ -6,8 +6,8 @@ tags: [product-management, program, internship]
 ---
 *originally written for my urspace blog on 7.27.20*
 
-It’s been about seven (whoa!) weeks since I started as an Engineering Fellow with Urspace Labs. Urspace Labs has been an incredible experience so far!!--more--> I have gotten to meet people from all over this country with varying levels of expertise in different parts of the product development process.
-
+It’s been about seven (whoa!) weeks since I started as an Engineering Fellow with Urspace Labs. Urspace Labs has been an incredible experience so far! I have gotten to meet people from all over this country with varying levels of expertise in different parts of the product development process.
+<!--more-->
 I’m so thankful to Emily Chung, our mentor, for guiding us through this entire process and working with each one of us closely. She has such a wealth of knowledge about product development and even engineering!
 
 Introducing the Social Justice Unicorns:
