@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Drshika Asher
+title: → ~ man drshika
 description: Drshika Asher's Personal Site
 ---
 ## NAME
