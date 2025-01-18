@@ -610,13 +610,13 @@ a {
     // Last item (nullptr) styling
     &:last-child {
       margin-left: 0%;
-      color: v.$theme-color;
+      color: v.$text-color;
     }
   }
 
   .arrow {
     margin-left: .7rem;
-    color: v.$theme-color;
+    color: v.$text-color;
     padding: 0.3 rem 0;
   }
 }

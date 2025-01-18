@@ -142,7 +142,7 @@ Project Manager & Head of Social.
 {: .section-content}
 
 [0] [Kotlin Slides](https://docs.google.com/presentation/d/1efdbPEUBnE5P_QJIuWO4aWLMJm2U5TwSn668uMNahi8/edit?usp=sharing)   
- &nbsp;   ↓   
+ &nbsp;↓   
 nullptr 
 {: .section-content}
 
