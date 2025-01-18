@@ -42,6 +42,7 @@ your-jekyll-site/
 ### 1. The Entry Point (`style.scss`)
 This is where Jekyll starts processing your styles:
 
+{% raw  %}
 ```scss:assets/css/style.scss
 ---
 ---
@@ -51,6 +52,7 @@ This is where Jekyll starts processing your styles:
 @use "normalize";
 @use "jekyll-theme-manpage";
 ```
+{% endraw %}
 
 Each line has a purpose:
 1. Empty front matter tells Jekyll to process this file
