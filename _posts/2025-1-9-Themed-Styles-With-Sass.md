@@ -141,10 +141,11 @@ if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
 ```
 
 Include it in your layout:
-
+{% raw  %}
 ```html:_includes/head-custom.html
 <script src="{{ '/assets/js/theme-switcher.js' | relative_url }}"></script>
 ```
+{% endraw  %}
 
 ## Creating New Themes
 
