@@ -1,3 +1,3 @@
 # Drshika's Personal Website
 
-Nothing to see here :)
+Like my site? Get the [template](https://github.com/drshika/jekyll-theme-manpage/)
