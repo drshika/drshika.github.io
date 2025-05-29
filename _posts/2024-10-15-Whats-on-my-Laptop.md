@@ -58,14 +58,14 @@ Operating System: MacOS Sonoma on a M3 Pro.
     - My Vim config is pretty default because I mostly use it for short one-off things
     - I use my 💰 anthropic API key with Claude 3.5 to help me with work. Otherwise, I have JSON linters, Live Preview, Live Share, Color Highlights, Spell Check, and [pyenv manager](https://marketplace.cursorapi.com/items?itemName=donjayamanne.python-environment-manager) for working with conda. The theme is still quite light. The rest of the extensions are mostly whatever I need to develop.
 - Terminal: 🆓 [iterm 2](https://iterm2.com/), 
-    - Themes: (OhMyZSH)[https://ohmyz.sh/] and (Starship)[https://starship.rs]
+    - Themes: [OhMyZSH](https://ohmyz.sh/) and [Starship](https://starship.rs)
         - I use [these](https://gist.github.com/n1snt/454b879b8f0b7995740ae04c5fb5b7df) OhMyZSH plugins as of now since I recently switched over from fish shell. 
         - Cappuccino Latte Everything! Except for my slightly customized powershell prompt, which I will share in my complete dotfiles soon!
 
 ## Browser
-A lot has changed since I first compiled this list. During school, I eventually switched to Chrome due to its poor integration with Firefox for many sites. Now that I've graduated, I have switched to using Arc out of curiosity. Do I still love open source? Yes. Is Firefox slowly becoming a pain to use on everything? Also, yes. So, I have given up on that for now. I might switch back to Firefox once the novelty wears off. [Explanation of potential future changes or plans for your tech setup].
-
-- [Arc Browser - Referral Link](https://arc.net/gift/13c590ff): has some nice features like PiP, freestyle** (not precisely the same but vertical layout with tab groups) tabs, tab groups, split screen, users, and more inbuilt. It's not sponsored, but it's generally my favorite. 
+I love treestyle tabs and firefox. And Zen browser is the perfect marriage of that. Arc is the closest chromium browser with that UX and I really just keep around all the browsers for my full stack work.
+- [Zen Browser](https://zen-browser.app/): I love compact mode, split screen and that I can use my favorite chrome extensions with this. This is my personal laptop daily driver. 
+- [Arc Browser - Referral Link](https://arc.net/gift/13c590ff): has some nice features like PiP, freestyle** (not precisely the same but vertical layout with tab groups) tabs, tab groups, split screen, users, and more inbuilt. This is my work laptop daily driver. 
 
 ### Browser Extensions
 - [Ublock Origin](https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm) If Chrome stops supporting this, I'm throwing hands. Best AdBlocker period.
