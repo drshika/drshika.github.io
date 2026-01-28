@@ -77,7 +77,7 @@ I've received a North Face puffer jacket. I really like it as it is my fall/spri
 
 Got these as conference swag. Not my taste, but one of my friends really likes them.
 
-**8\. Accessories \[Novelty: 2/5, Price: 1/5\]**
+**8\. Winter Accessories \[Novelty: 2/5, Price: 1/5\]**
 
 I definitely don't speak for everyone on this, as I lose winter accessories super quickly, so I tend not to wear them unless I need them.
 
