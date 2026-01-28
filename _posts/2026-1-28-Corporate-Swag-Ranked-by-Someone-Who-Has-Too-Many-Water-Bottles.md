@@ -6,16 +6,10 @@ toc: true
 tags: [swag, tech]
 ---
 
-My qualifications:
-
-* Received a copious amount of company swag through conferences, events, internships, work, high school, college, and friends  
-<!--more-->
-* Made swag purchasing decisions for many events and organizations  
-* I have opinions 
-
 For each item, I will rank the item by novelty and price on a scale of 0/5, where:
 
 **Price:** This is to get the lowest viable quality level of the item with 0 minimum purchase quantity. Prices are in USD.
+<!--more-->
 
 * 0 \- $0-10 per unit  
 * 1 \- $10-30 per unit  
@@ -32,6 +26,13 @@ For each item, I will rank the item by novelty and price on a scale of 0/5, wher
 * 3 \- moderately rare  
 * 4 \- quite rare  
 * 5 \- very rare
+
+My qualifications:
+
+* Received a copious amount of company swag through conferences, events, internships, work, high school, college, and friends  
+<!--more-->
+* Made swag purchasing decisions for many events and organizations  
+* I have opinions 
 
 **Disclaimer:**
 
