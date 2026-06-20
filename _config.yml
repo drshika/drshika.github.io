@@ -34,3 +34,8 @@ toc:
   sublist_class: '' # default: ''
   item_class: toc-entry # default: toc-entry
   item_prefix: toc- # default: toc-
+
+collections:
+  ikebana:
+    output: true
+    permalink: /ikebana/:title/

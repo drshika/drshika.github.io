@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: " en-US" }}">
+
+<head>
+  <meta charset="UTF-8">
+  {% seo %}
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  {% include head-custom.html %}
+</head>
+
+<body>
+
+  <main id="content" class="main-content" role="main">
+    {{ content }}
+    <button id="scrollToTop" title="Go to top">↑</button>
+    <footer class="site-footer" style="text-align: center;">
+
+      {% if page.layout == 'post' %}
+      <a href="/writing" class="back-link">← back to Writing</a>
+      {% else %}
+      <span class="site-footer-credits">Made with lots of ♥ by Drshika Asher, 2025</span>
+      {% endif %}
+    </footer> 
+  </main>
+  <script>
+  </script>
+  {% if site.features.back_to_top %}
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Get the button
+      const scrollButton = document.getElementById("scrollToTop");
+
+      if (scrollButton) {
+        // Show button when user scrolls down 20px from top
+        window.onscroll = function () {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            scrollButton.style.display = "block";
+          } else {
+            scrollButton.style.display = "none";
+          }
+        };
+
+        // Scroll to top when button is clicked
+        scrollButton.onclick = function () {
+          document.body.scrollTop = 0; // For Safari
+          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        };
+      }
+    });
+  </script>
+  {% endif %}
+</body>
+
+</html>
